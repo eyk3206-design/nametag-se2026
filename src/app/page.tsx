@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import { QRCodeSVG } from "qrcode.react";
-import html2canvas from "html2canvas-pro";
+import { toPng } from "html-to-image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -104,7 +104,7 @@ export default function Home() {
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
 
   // Helper: fetch photo and convert to base64 data URL
-  // This is CRITICAL for html2canvas - data URLs are always same-origin, never CORS blocked
+  // This is CRITICAL for html-to-image - data URLs are always same-origin, never CORS blocked
   const fetchPhotoAsBase64 = useCallback(async (filename: string): Promise<string | null> => {
     if (!filename) return null;
     try {
@@ -122,6 +122,33 @@ export default function Home() {
       return null;
     }
   }, []);
+
+  // Helper: convert a local image path to base64 data URL
+  const fetchLocalImageAsBase64 = useCallback(async (src: string): Promise<string | null> => {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) return null;
+      const blob = await res.blob();
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result as string);
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(blob);
+      });
+    } catch {
+      return null;
+    }
+  }, []);
+
+  // State for logo base64 URLs (needed for html-to-image)
+  const [logoBpsBase64, setLogoBpsBase64] = useState<string | null>(null);
+  const [logoSeBase64, setLogoSeBase64] = useState<string | null>(null);
+
+  // Preload logos on mount
+  useEffect(() => {
+    fetchLocalImageAsBase64("/logo-bps.png").then(setLogoBpsBase64);
+    fetchLocalImageAsBase64("/logo-se.png").then(setLogoSeBase64);
+  }, [fetchLocalImageAsBase64]);
 
   // Synchronous fallback for non-critical uses (admin form previews etc.)
   const getPhotoUrlSync = useCallback((filename: string) => {
@@ -170,14 +197,14 @@ export default function Home() {
     if (!nametagRef.current) return;
     setIsDownloading(true);
     try {
-      const canvas = await html2canvas(nametagRef.current, {
-        scale: 3,
-        useCORS: true,
-        allowTaint: false,
+      const dataUrl = await toPng(nametagRef.current, {
+        cacheBust: true,
+        pixelRatio: 3,
         backgroundColor: "#ffffff",
-        logging: false,
+        style: {
+          transform: "none",
+        },
       });
-      const dataUrl = canvas.toDataURL("image/png");
       const link = document.createElement("a");
       link.download = `nametag-${selectedParticipant?.sobat_id || "unknown"}.png`;
       link.href = dataUrl;
@@ -1087,7 +1114,7 @@ export default function Home() {
                     }}
                   >
                     <img
-                      src="/logo-bps.png"
+                      src={logoBpsBase64 || "/logo-bps.png"}
                       alt="BPS"
                       style={{ height: "44px", width: "44px", objectFit: "contain" }}
                     />
@@ -1151,7 +1178,7 @@ export default function Home() {
                       </div>
                     </div>
                     <img
-                      src="/logo-se.png"
+                      src={logoSeBase64 || "/logo-se.png"}
                       alt="SE2026"
                       style={{ height: "44px", width: "44px", objectFit: "contain" }}
                     />
