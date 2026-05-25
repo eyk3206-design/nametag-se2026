@@ -1,0 +1,49 @@
+# dependencies
+node_modules
+
+# next.js
+.next/
+out/
+
+# production
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# logs
+*.log
+
+# local upload data (not needed on Vercel)
+/upload/
+
+# unnecessary files
+/skills/
+/agent-ctx/
+/db/
+/mini-services/
+/examples/
+/prisma/
+/download/
+/z-ai-*/
+.claude
+bun.lock
+Caddyfile
+.zscripts/
+package-lock.json
