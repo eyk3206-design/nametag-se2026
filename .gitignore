@@ -47,3 +47,4 @@ bun.lock
 Caddyfile
 .zscripts/
 package-lock.json
+.zscripts/
