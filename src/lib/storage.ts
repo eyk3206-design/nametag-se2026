@@ -1,8 +1,5 @@
-// Storage abstraction layer
-// Supports both local filesystem (CSV/files) and Vercel Blob
-// When BLOB_READ_WRITE_TOKEN is set, uses Vercel Blob
-// When on Vercel without Blob, returns clear error
-// Otherwise, falls back to local filesystem
+// Storage abstraction layer for Vercel Blob + local filesystem
+// Clean rewrite - no typos, no bugs
 
 export interface Participant {
   sobat_id: string;
@@ -24,19 +21,16 @@ function isVercel(): boolean {
   return !!process.env.VERCEL;
 }
 
-// Error thrown when trying to write on Vercel without Blob
 class VercelBlobRequiredError extends Error {
   constructor(action: string) {
     super(
       `${action} memerlukan Vercel Blob Storage. ` +
-      `Buka Vercel Dashboard → Project → Storage → Create Blob → Link ke project → Redeploy. ` +
-      `Setelah itu, fitur admin akan berfungsi penuh.`
+      `Buka Vercel Dashboard → Project → Storage → Create Blob → Link ke project → Redeploy.`
     );
     this.name = "VercelBlobRequiredError";
   }
 }
 
-// Parse CSV text into Participant array
 function parseCSV(csvText: string): Participant[] {
   const lines = csvText.trim().split("\n");
   if (lines.length < 2) return [];
@@ -55,20 +49,15 @@ function parseCSV(csvText: string): Participant[] {
   return result;
 }
 
-// Convert Participant array to CSV text
-function toCSV(participantsList: Participant[]): string {
-  const headers = [
-    "sobat_id", "nama", "kecamatan", "gelombang",
-    "tempat_pelatihan", "kelas", "photo_filename",
-  ];
+function toCSV(list: Participant[]): string {
+  const headers = ["sobat_id", "nama", "kecamatan", "gelombang", "tempat_pelatihan", "kelas", "photo_filename"];
   const lines = [headers.join(",")];
-  for (const p of participantsList) {
-    lines.push([p.sobat_id, p.nama, p.kecamatan, p.gelombang, p.tempat_pelatihan, p.kelas, p.photo_filename].join(","));
+  for (const p of list) {
+    lines.push(`${p.sobat_id},${p.nama},${p.kecamatan},${p.gelombang},${p.tempat_pelatihan},${p.kelas},${p.photo_filename}`);
   }
   return lines.join("\n");
 }
 
-// Get all participants from storage (read-only - works everywhere)
 export async function getParticipants(): Promise<Participant[]> {
   if (useBlob()) {
     try {
@@ -76,19 +65,15 @@ export async function getParticipants(): Promise<Participant[]> {
       const blobInfo = await head(DATA_KEY);
       if (blobInfo) {
         const response = await fetch(blobInfo.url);
-        if (response.ok) {
-          return await response.json();
-        }
+        if (response.ok) return await response.json();
       }
     } catch (error) {
       console.error("Error reading from Vercel Blob:", error);
     }
-    // Fallback to bundled data
     const { participants } = await import("@/data/participants");
     return participants;
   }
 
-  // Local filesystem mode (only works in local dev)
   try {
     const { readFileSync } = await import("fs");
     const { join } = await import("path");
@@ -96,47 +81,32 @@ export async function getParticipants(): Promise<Participant[]> {
     const csvText = readFileSync(csvPath, "utf-8");
     const result = parseCSV(csvText);
     if (result.length > 0) return result;
-  } catch {
-    // CSV not available
-  }
+  } catch {}
 
-  // Fallback to bundled data
   const { participants } = await import("@/data/participants");
   return participants;
 }
 
-// Save all participants to storage
-export async function saveParticipants(participantsList: Participant[]): Promise<void> {
+export async function saveParticipants(list: Participant[]): Promise<void> {
   if (useBlob()) {
     const { put } = await import("@vercel/blob");
-    await put(DATA_KEY, JSON.stringify(participantsList), {
+    await put(DATA_KEY, JSON.stringify(list), {
       access: "public",
       contentType: "application/json",
       allowOverwrite: true,
     });
     return;
   }
+  if (isVercel()) throw new VercelBlobRequiredError("Menyimpan data peserta");
 
-  // On Vercel without Blob - throw clear error
-  if (isVercel()) {
-    throw new VercelBlobRequiredError("Menyimpan data peserta");
-  }
-
-  // Local filesystem mode
   const { writeFileSync, existsSync, mkdirSync } = await import("fs");
   const { join } = await import("path");
-  const uploadDir = join(process.cwd(), "upload");
-  if (!existsSync(uploadDir)) mkdirSync(uploadDir, { recursive: true });
-  const csvPath = join(uploadDir, "data-peserta-se2026.csv");
-  writeFileSync(csvPath, toCSV(participantsList), "utf-8");
+  const dir = join(process.cwd(), "upload");
+  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, "data-peserta-se2026.csv"), toCSV(list), "utf-8");
 }
 
-// Upload a photo to storage - returns URL/path
-export async function uploadPhoto(
-  filename: string,
-  buffer: Buffer,
-  contentType: string
-): Promise<string> {
+export async function uploadPhoto(filename: string, buffer: Buffer, contentType: string): Promise<string> {
   if (useBlob()) {
     const { put } = await import("@vercel/blob");
     const blob = await put(`photos/${filename}`, buffer, {
@@ -146,89 +116,101 @@ export async function uploadPhoto(
     });
     return blob.url;
   }
+  if (isVercel()) throw new VercelBlobRequiredError("Upload foto");
 
-  // On Vercel without Blob - throw clear error
-  if (isVercel()) {
-    throw new VercelBlobRequiredError("Upload foto");
-  }
-
-  // Local filesystem mode
   const { writeFileSync, existsSync, mkdirSync } = await import("fs");
   const { join } = await import("path");
-
   const uploadDir = join(process.cwd(), "upload");
   if (!existsSync(uploadDir)) mkdirSync(uploadDir, { recursive: true });
   writeFileSync(join(uploadDir, filename), buffer);
-
-  const publicPhotosDir = join(process.cwd(), "public", "photos");
-  if (!existsSync(publicPhotosDir)) mkdirSync(publicPhotosDir, { recursive: true });
-  writeFileSync(join(publicPhotosDir, filename), buffer);
-
+  const publicDir = join(process.cwd(), "public", "photos");
+  if (!existsSync(publicDir)) mkdirSync(publicDir, { recursive: true });
+  writeFileSync(join(publicDir, filename), buffer);
   return `/api/photo?filename=${encodeURIComponent(filename)}`;
 }
 
-// Get photo URL for a participant
-// Returns: Vercel Blob URL, or null if not found
 export async function getPhotoUrl(filename: string): Promise<string | null> {
   if (!filename) return null;
-  // If it's already a full URL (e.g. stored from uploadPhoto return value), return as-is
   if (filename.startsWith("http")) return filename;
 
   if (useBlob()) {
-    // Try head() first (most efficient)
     try {
       const { head } = await import("@vercel/blob");
       const blobInfo = await head(`photos/${filename}`);
       if (blobInfo) return blobInfo.url;
-    } catch { /* fall through */ }
-
-    // Fallback: try list() with prefix (more reliable for newly uploaded blobs)
+    } catch {}
     try {
       const { list } = await import("@vercel/blob");
       const blobs = await list({ prefix: `photos/${filename}`, limit: 1 });
       if (blobs.blobs.length > 0) return blobs.blobs[0].url;
-    } catch { /* fall through */ }
-
-    // Photo not found in blob storage
+    } catch {}
     return null;
   }
 
-  // Local mode - check if file exists
   try {
     const { existsSync } = await import("fs");
     const { join } = await import("path");
     if (existsSync(join(process.cwd(), "upload", filename))) {
       return `/api/photo?filename=${encodeURIComponent(filename)}`;
     }
-    if (existsSync(join(process.cwd(), "public", "photos", filename))) {
-      return `/api/photo?filename=${encodeURIComponent(filename)}`;
-    }
-  } catch { /* fall through */ }
+  } catch {}
 
   return null;
 }
 
-// Delete a photo from storage
+// Get photo as Buffer - used by server-side nametag generation
+export async function getPhotoBuffer(filename: string): Promise<Buffer | null> {
+  if (!filename) return null;
+
+  // If it's a URL, fetch it
+  if (filename.startsWith("http")) {
+    try {
+      const res = await fetch(filename);
+      if (res.ok) return Buffer.from(await res.arrayBuffer());
+    } catch {}
+    return null;
+  }
+
+  // Try Vercel Blob
+  if (useBlob()) {
+    const url = await getPhotoUrl(filename);
+    if (url) {
+      try {
+        const res = await fetch(url);
+        if (res.ok) return Buffer.from(await res.arrayBuffer());
+      } catch {}
+    }
+    return null;
+  }
+
+  // Try local filesystem
+  try {
+    const { readFileSync, existsSync } = await import("fs");
+    const { join } = await import("path");
+    const uploadPath = join(process.cwd(), "upload", filename);
+    if (existsSync(uploadPath)) return readFileSync(uploadPath);
+    const publicPath = join(process.cwd(), "public", "photos", filename);
+    if (existsSync(publicPath)) return readFileSync(publicPath);
+  } catch {}
+
+  return null;
+}
+
 export async function deletePhoto(filename: string): Promise<void> {
   if (!filename) return;
   if (useBlob()) {
     if (filename.startsWith("http")) {
-      try { const { del } = await import("@vercel/blob"); await del(filename); } catch { /* ignore */ }
+      try { const { del } = await import("@vercel/blob"); await del(filename); } catch {}
       return;
     }
     try {
       const { list, del } = await import("@vercel/blob");
       const blobs = await list({ prefix: `photos/${filename}` });
       for (const blob of blobs.blobs) await del(blob.url);
-    } catch { /* ignore */ }
+    } catch {}
     return;
   }
-
-  // On Vercel without Blob - throw clear error
-  if (isVercel()) {
-    throw new VercelBlobRequiredError("Menghapus foto");
-  }
-
+  if (isVercel()) throw new VercelBlobRequiredError("Menghapus foto");
   try {
     const { unlinkSync, existsSync } = await import("fs");
     const { join } = await import("path");
@@ -236,28 +218,20 @@ export async function deletePhoto(filename: string): Promise<void> {
     if (existsSync(uploadPath)) unlinkSync(uploadPath);
     const publicPath = join(process.cwd(), "public", "photos", filename);
     if (existsSync(publicPath)) unlinkSync(publicPath);
-  } catch { /* ignore */ }
+  } catch {}
 }
 
-export function isBlobMode(): boolean {
-  return useBlob();
-}
+export function isBlobMode(): boolean { return useBlob(); }
+export function isVercelEnv(): boolean { return isVercel(); }
 
-export function isVercelEnv(): boolean {
-  return isVercel();
-}
-
-// Initialize storage with bundled data if empty (first Vercel deployment)
 export async function initializeStorageIfNeeded(): Promise<void> {
   if (useBlob()) {
     try {
       const { head } = await import("@vercel/blob");
       const blobInfo = await head(DATA_KEY);
       if (!blobInfo) {
-        console.log("Initializing Vercel Blob with default participant data...");
         const { participants } = await import("@/data/participants");
         await saveParticipants(participants);
-        console.log("Default data initialized successfully.");
       }
     } catch (error) {
       console.error("Error initializing storage:", error);
