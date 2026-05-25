@@ -103,16 +103,23 @@ export default function Home() {
   const [formPhotoPreview, setFormPhotoPreview] = useState<string | null>(null);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
 
-  // Helper to resolve photo URL via API (supports Vercel Blob and local paths)
-  const resolvePhotoUrl = useCallback(async (filename: string): Promise<string | null> => {
+  // Helper: fetch photo and convert to base64 data URL
+  // This is CRITICAL for html2canvas - data URLs are always same-origin, never CORS blocked
+  const fetchPhotoAsBase64 = useCallback(async (filename: string): Promise<string | null> => {
     if (!filename) return null;
-    if (filename.startsWith("http")) return filename;
     try {
-      const res = await fetch(`/api/photo-url?filename=${encodeURIComponent(filename)}`);
-      const data = await res.json();
-      return data.url || `/api/photo?filename=${encodeURIComponent(filename)}`;
+      // Use our API route as proxy - it handles Vercel Blob resolution server-side
+      const res = await fetch(`/api/photo?filename=${encodeURIComponent(filename)}`);
+      if (!res.ok) return null;
+      const blob = await res.blob();
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result as string);
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(blob);
+      });
     } catch {
-      return `/api/photo?filename=${encodeURIComponent(filename)}`;
+      return null;
     }
   }, []);
 
@@ -140,9 +147,9 @@ export default function Home() {
       if (participants.length > 0) {
         const participant = participants[0];
         setSelectedParticipant(participant);
-        // Resolve photo URL to get direct Vercel Blob URL for html2canvas
-        const url = await resolvePhotoUrl(participant.photo_filename);
-        setPhotoUrl(url);
+        // Fetch photo as base64 data URL for html2canvas compatibility
+        const base64Url = await fetchPhotoAsBase64(participant.photo_filename);
+        setPhotoUrl(base64Url);
       } else {
         setNotFound(true);
       }
@@ -151,7 +158,7 @@ export default function Home() {
     } finally {
       setIsLoading(false);
     }
-  }, [sobatId, resolvePhotoUrl]);
+  }, [sobatId, fetchPhotoAsBase64]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
@@ -163,23 +170,6 @@ export default function Home() {
     if (!nametagRef.current) return;
     setIsDownloading(true);
     try {
-      // Try to preload the photo image for html2canvas CORS compatibility
-      if (photoUrl && photoUrl.startsWith("http")) {
-        try {
-          await new Promise<void>((resolve, reject) => {
-            const img = new Image();
-            img.crossOrigin = "anonymous";
-            img.onload = () => resolve();
-            img.onerror = () => reject(new Error("Image load failed"));
-            img.src = photoUrl;
-            // Timeout after 5 seconds
-            setTimeout(() => resolve(), 5000);
-          });
-        } catch {
-          console.warn("Could not preload photo for CORS, proceeding anyway");
-        }
-      }
-
       const canvas = await html2canvas(nametagRef.current, {
         scale: 3,
         useCORS: true,
@@ -199,25 +189,6 @@ export default function Home() {
       setTimeout(() => setShowDownloadMsg(false), 10000);
     } catch (err) {
       console.error("Download failed:", err);
-      // Fallback: try without CORS (may result in no photo but nametag still downloads)
-      try {
-        const canvas = await html2canvas(nametagRef.current, {
-          scale: 3,
-          useCORS: false,
-          allowTaint: true,
-          backgroundColor: "#ffffff",
-          logging: false,
-        });
-        const dataUrl = canvas.toDataURL("image/png");
-        const link = document.createElement("a");
-        link.download = `nametag-${selectedParticipant?.sobat_id || "unknown"}.png`;
-        link.href = dataUrl;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      } catch (fallbackErr) {
-        console.error("Fallback download also failed:", fallbackErr);
-      }
     } finally {
       setIsDownloading(false);
     }
@@ -1229,7 +1200,6 @@ export default function Home() {
                           <img
                             src={photoUrl}
                             alt={selectedParticipant.nama}
-                            crossOrigin="anonymous"
                             style={{
                               width: "100%",
                               height: "100%",

@@ -6,9 +6,9 @@ export async function GET(request: NextRequest) {
     const filename = request.nextUrl.searchParams.get("filename");
     if (!filename) return new NextResponse("Filename required", { status: 400 });
 
-    // If filename is already a full URL (from Vercel Blob), redirect to it
+    // If filename is already a full URL (from Vercel Blob), proxy it
     if (filename.startsWith("http")) {
-      return NextResponse.redirect(filename);
+      return await proxyImage(filename);
     }
 
     // Sanitize filename - prevent directory traversal
@@ -19,11 +19,10 @@ export async function GET(request: NextRequest) {
     const photoUrl = await getPhotoUrl(sanitizedFilename);
 
     if (photoUrl) {
-      // If it's a full URL (Vercel Blob), redirect with CORS headers
+      // If it's a full URL (Vercel Blob), PROXY it server-side (not redirect!)
+      // This is critical for html2canvas base64 conversion to work
       if (photoUrl.startsWith("http")) {
-        const response = NextResponse.redirect(photoUrl);
-        response.headers.set("Access-Control-Allow-Origin", "*");
-        return response;
+        return await proxyImage(photoUrl);
       }
 
       // Try to read local file
@@ -48,7 +47,7 @@ export async function GET(request: NextRequest) {
         }
       } catch { /* fs not available */ }
 
-      // Redirect to the path
+      // Fallback redirect
       return NextResponse.redirect(new URL(photoUrl, request.url));
     }
 
@@ -69,6 +68,28 @@ export async function OPTIONS() {
       "Access-Control-Max-Age": "86400",
     },
   });
+}
+
+// Proxy an image URL server-side and return the binary data
+// This avoids CORS issues on the client side
+async function proxyImage(url: string): Promise<NextResponse> {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return getPlaceholderSVG();
+
+    const contentType = res.headers.get("content-type") || "image/jpeg";
+    const buffer = Buffer.from(await res.arrayBuffer());
+
+    return new NextResponse(buffer, {
+      headers: {
+        "Content-Type": contentType,
+        "Cache-Control": "public, max-age=86400",
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
+  } catch {
+    return getPlaceholderSVG();
+  }
 }
 
 function getPlaceholderSVG() {
