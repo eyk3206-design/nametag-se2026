@@ -7,7 +7,9 @@ export async function GET(request: NextRequest) {
     if (!filename) return new NextResponse("Filename required", { status: 400 });
 
     // If filename is already a full URL (from Vercel Blob), redirect to it
-    if (filename.startsWith("http")) return NextResponse.redirect(filename);
+    if (filename.startsWith("http")) {
+      return NextResponse.redirect(filename);
+    }
 
     // Sanitize filename - prevent directory traversal
     const sanitizedFilename = filename.replace(/[^a-zA-Z0-9._-]/g, "");
@@ -17,8 +19,12 @@ export async function GET(request: NextRequest) {
     const photoUrl = await getPhotoUrl(sanitizedFilename);
 
     if (photoUrl) {
-      // If it's a full URL (Vercel Blob), redirect
-      if (photoUrl.startsWith("http")) return NextResponse.redirect(photoUrl);
+      // If it's a full URL (Vercel Blob), redirect with CORS headers
+      if (photoUrl.startsWith("http")) {
+        const response = NextResponse.redirect(photoUrl);
+        response.headers.set("Access-Control-Allow-Origin", "*");
+        return response;
+      }
 
       // Try to read local file
       try {
@@ -33,7 +39,11 @@ export async function GET(request: NextRequest) {
             ext === "png" ? "image/png" : ext === "gif" ? "image/gif" : ext === "webp" ? "image/webp" : "image/jpeg";
 
           return new NextResponse(fileBuffer, {
-            headers: { "Content-Type": contentType, "Cache-Control": "public, max-age=86400" },
+            headers: {
+              "Content-Type": contentType,
+              "Cache-Control": "public, max-age=86400",
+              "Access-Control-Allow-Origin": "*",
+            },
           });
         }
       } catch { /* fs not available */ }
@@ -46,6 +56,19 @@ export async function GET(request: NextRequest) {
   } catch {
     return getPlaceholderSVG();
   }
+}
+
+// Handle CORS preflight
+export async function OPTIONS() {
+  return new NextResponse(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Access-Control-Max-Age": "86400",
+    },
+  });
 }
 
 function getPlaceholderSVG() {

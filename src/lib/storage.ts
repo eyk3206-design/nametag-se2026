@@ -83,6 +83,7 @@ export async function getParticipants(): Promise<Participant[]> {
     } catch (error) {
       console.error("Error reading from Vercel Blob:", error);
     }
+    // Fallback to bundled data
     const { participants } = await import("@/data/participants");
     return participants;
   }
@@ -99,6 +100,7 @@ export async function getParticipants(): Promise<Participant[]> {
     // CSV not available
   }
 
+  // Fallback to bundled data
   const { participants } = await import("@/data/participants");
   return participants;
 }
@@ -172,13 +174,15 @@ export async function getPhotoUrl(filename: string): Promise<string | null> {
 
   if (useBlob()) {
     try {
-      const { list } = await import("@vercel/blob");
-      const blobs = await list({ prefix: `photos/${filename}` });
-      if (blobs.blobs.length > 0) return blobs.blobs[0].url;
+      const { head } = await import("@vercel/blob");
+      const blobInfo = await head(`photos/${filename}`);
+      if (blobInfo) return blobInfo.url;
     } catch { /* fall through */ }
+    // Fallback to API route which will try to redirect or serve placeholder
     return `/api/photo?filename=${encodeURIComponent(filename)}`;
   }
 
+  // Local mode - check if file exists
   try {
     const { existsSync } = await import("fs");
     const { join } = await import("path");
@@ -239,8 +243,10 @@ export async function initializeStorageIfNeeded(): Promise<void> {
       const { head } = await import("@vercel/blob");
       const blobInfo = await head(DATA_KEY);
       if (!blobInfo) {
+        console.log("Initializing Vercel Blob with default participant data...");
         const { participants } = await import("@/data/participants");
         await saveParticipants(participants);
+        console.log("Default data initialized successfully.");
       }
     } catch (error) {
       console.error("Error initializing storage:", error);

@@ -103,8 +103,21 @@ export default function Home() {
   const [formPhotoPreview, setFormPhotoPreview] = useState<string | null>(null);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
 
-  // Helper to get photo URL - supports blob URLs and local paths
-  const getPhotoUrl = useCallback((filename: string) => {
+  // Helper to resolve photo URL via API (supports Vercel Blob and local paths)
+  const resolvePhotoUrl = useCallback(async (filename: string): Promise<string | null> => {
+    if (!filename) return null;
+    if (filename.startsWith("http")) return filename;
+    try {
+      const res = await fetch(`/api/photo-url?filename=${encodeURIComponent(filename)}`);
+      const data = await res.json();
+      return data.url || `/api/photo?filename=${encodeURIComponent(filename)}`;
+    } catch {
+      return `/api/photo?filename=${encodeURIComponent(filename)}`;
+    }
+  }, []);
+
+  // Synchronous fallback for non-critical uses (admin form previews etc.)
+  const getPhotoUrlSync = useCallback((filename: string) => {
     if (!filename) return null;
     if (filename.startsWith("http")) return filename;
     return `/api/photo?filename=${encodeURIComponent(filename)}`;
@@ -127,7 +140,9 @@ export default function Home() {
       if (participants.length > 0) {
         const participant = participants[0];
         setSelectedParticipant(participant);
-        setPhotoUrl(getPhotoUrl(participant.photo_filename));
+        // Resolve photo URL to get direct Vercel Blob URL for html2canvas
+        const url = await resolvePhotoUrl(participant.photo_filename);
+        setPhotoUrl(url);
       } else {
         setNotFound(true);
       }
@@ -136,7 +151,7 @@ export default function Home() {
     } finally {
       setIsLoading(false);
     }
-  }, [sobatId, getPhotoUrl]);
+  }, [sobatId, resolvePhotoUrl]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
@@ -708,7 +723,7 @@ export default function Home() {
                                       <img src={formPhotoPreview} alt="Preview" className="w-full h-full object-cover" />
                                     ) : editParticipant.photo_filename && formMode === "edit" ? (
                                       <img
-                                        src={getPhotoUrl(editParticipant.photo_filename) || ""}
+                                        src={getPhotoUrlSync(editParticipant.photo_filename) || ""}
                                         alt="Foto"
                                         className="w-full h-full object-cover"
                                         onError={(e) => {
