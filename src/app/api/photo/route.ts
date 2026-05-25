@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
     const filename = request.nextUrl.searchParams.get("filename");
     if (!filename) return new NextResponse("Filename required", { status: 400 });
 
-    // If filename is already a full URL (from Vercel Blob), proxy it
+    // If filename is already a full URL (from Vercel Blob), proxy it server-side
     if (filename.startsWith("http")) {
       return await proxyImage(filename);
     }
@@ -19,8 +19,9 @@ export async function GET(request: NextRequest) {
     const photoUrl = await getPhotoUrl(sanitizedFilename);
 
     if (photoUrl) {
-      // If it's a full URL (Vercel Blob), PROXY it server-side (not redirect!)
-      // This is critical for html2canvas base64 conversion to work
+      // If it's a full URL (Vercel Blob), proxy it server-side
+      // This is CRITICAL: we proxy instead of redirect so that
+      // client-side fetch can convert to base64 without CORS issues
       if (photoUrl.startsWith("http")) {
         return await proxyImage(photoUrl);
       }
@@ -46,11 +47,9 @@ export async function GET(request: NextRequest) {
           });
         }
       } catch { /* fs not available */ }
-
-      // Fallback redirect
-      return NextResponse.redirect(new URL(photoUrl, request.url));
     }
 
+    // Photo not found - return placeholder
     return getPlaceholderSVG();
   } catch {
     return getPlaceholderSVG();
@@ -74,7 +73,11 @@ export async function OPTIONS() {
 // This avoids CORS issues on the client side
 async function proxyImage(url: string): Promise<NextResponse> {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, {
+      headers: {
+        "Cache-Control": "no-cache",
+      },
+    });
     if (!res.ok) return getPlaceholderSVG();
 
     const contentType = res.headers.get("content-type") || "image/jpeg";
@@ -102,6 +105,6 @@ function getPlaceholderSVG() {
   </svg>`;
 
   return new NextResponse(svg, {
-    headers: { "Content-Type": "image/svg+xml", "Cache-Control": "public, max-age=86400" },
+    headers: { "Content-Type": "image/svg+xml", "Cache-Control": "public, max-age=60" },
   });
 }

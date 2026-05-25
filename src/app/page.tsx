@@ -431,6 +431,10 @@ export default function Home() {
                   setDeleteConfirm(null);
                   setFormPhotoFile(null);
                   setFormPhotoPreview(null);
+                  // Auto-refresh nametag if a participant is currently displayed
+                  if (selectedParticipant && sobatId) {
+                    handleSearch();
+                  }
                 }
               }}
             >

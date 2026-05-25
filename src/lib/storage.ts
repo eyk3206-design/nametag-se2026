@@ -168,18 +168,29 @@ export async function uploadPhoto(
 }
 
 // Get photo URL for a participant
+// Returns: Vercel Blob URL, or null if not found
 export async function getPhotoUrl(filename: string): Promise<string | null> {
   if (!filename) return null;
+  // If it's already a full URL (e.g. stored from uploadPhoto return value), return as-is
   if (filename.startsWith("http")) return filename;
 
   if (useBlob()) {
+    // Try head() first (most efficient)
     try {
       const { head } = await import("@vercel/blob");
       const blobInfo = await head(`photos/${filename}`);
       if (blobInfo) return blobInfo.url;
     } catch { /* fall through */ }
-    // Fallback to API route which will try to redirect or serve placeholder
-    return `/api/photo?filename=${encodeURIComponent(filename)}`;
+
+    // Fallback: try list() with prefix (more reliable for newly uploaded blobs)
+    try {
+      const { list } = await import("@vercel/blob");
+      const blobs = await list({ prefix: `photos/${filename}`, limit: 1 });
+      if (blobs.blobs.length > 0) return blobs.blobs[0].url;
+    } catch { /* fall through */ }
+
+    // Photo not found in blob storage
+    return null;
   }
 
   // Local mode - check if file exists
@@ -194,7 +205,7 @@ export async function getPhotoUrl(filename: string): Promise<string | null> {
     }
   } catch { /* fall through */ }
 
-  return `/api/photo?filename=${encodeURIComponent(filename)}`;
+  return null;
 }
 
 // Delete a photo from storage
