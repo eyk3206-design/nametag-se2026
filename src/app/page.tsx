@@ -163,10 +163,27 @@ export default function Home() {
     if (!nametagRef.current) return;
     setIsDownloading(true);
     try {
+      // Try to preload the photo image for html2canvas CORS compatibility
+      if (photoUrl && photoUrl.startsWith("http")) {
+        try {
+          await new Promise<void>((resolve, reject) => {
+            const img = new Image();
+            img.crossOrigin = "anonymous";
+            img.onload = () => resolve();
+            img.onerror = () => reject(new Error("Image load failed"));
+            img.src = photoUrl;
+            // Timeout after 5 seconds
+            setTimeout(() => resolve(), 5000);
+          });
+        } catch {
+          console.warn("Could not preload photo for CORS, proceeding anyway");
+        }
+      }
+
       const canvas = await html2canvas(nametagRef.current, {
         scale: 3,
         useCORS: true,
-        allowTaint: true,
+        allowTaint: false,
         backgroundColor: "#ffffff",
         logging: false,
       });
@@ -182,6 +199,25 @@ export default function Home() {
       setTimeout(() => setShowDownloadMsg(false), 10000);
     } catch (err) {
       console.error("Download failed:", err);
+      // Fallback: try without CORS (may result in no photo but nametag still downloads)
+      try {
+        const canvas = await html2canvas(nametagRef.current, {
+          scale: 3,
+          useCORS: false,
+          allowTaint: true,
+          backgroundColor: "#ffffff",
+          logging: false,
+        });
+        const dataUrl = canvas.toDataURL("image/png");
+        const link = document.createElement("a");
+        link.download = `nametag-${selectedParticipant?.sobat_id || "unknown"}.png`;
+        link.href = dataUrl;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } catch (fallbackErr) {
+        console.error("Fallback download also failed:", fallbackErr);
+      }
     } finally {
       setIsDownloading(false);
     }
