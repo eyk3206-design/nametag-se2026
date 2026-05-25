@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { uploadPhoto, initializeStorageIfNeeded } from "@/lib/storage";
+import sharp from "sharp";
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "eykman04";
 
@@ -22,14 +23,20 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Format file tidak didukung. Gunakan JPG, PNG, GIF, atau WebP" }, { status: 400 });
     }
 
-    const ext = file.type === "image/png" ? "png" : file.type === "image/gif" ? "gif" : file.type === "image/webp" ? "webp" : "jpg";
-    const filename = `${sobatId}.${ext}`;
-
+    // Convert to PNG format and resize to reasonable dimensions (max 600x800)
     const arrayBuffer = await file.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-    const photoUrl = await uploadPhoto(filename, buffer, file.type);
+    const inputBuffer = Buffer.from(arrayBuffer);
 
-    return NextResponse.json({ success: true, message: "Foto berhasil diunggah", filename, photoUrl });
+    const pngBuffer = await sharp(inputBuffer)
+      .resize(600, 800, { fit: "inside", withoutEnlargement: true })
+      .png({ quality: 90 })
+      .toBuffer();
+
+    // Always save as PNG
+    const filename = `${sobatId}.png`;
+    const photoUrl = await uploadPhoto(filename, pngBuffer, "image/png");
+
+    return NextResponse.json({ success: true, message: "Foto berhasil diunggah (format PNG)", filename, photoUrl });
   } catch (error) {
     console.error("Photo upload error:", error);
     return NextResponse.json({ error: "Gagal mengunggah foto" }, { status: 500 });

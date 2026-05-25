@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -37,7 +37,7 @@ export default function Home() {
   const [notFound, setNotFound] = useState(false);
   const [showSearchHint, setShowSearchHint] = useState(false);
   const [showDownloadMsg, setShowDownloadMsg] = useState(false);
-  const nametagRef = useRef<HTMLDivElement>(null);
+
 
   // Storage status
   const [storageStatus, setStorageStatus] = useState<{blobMode: boolean; writable: boolean; message: string} | null>(null);
@@ -570,7 +570,7 @@ export default function Home() {
             )}
 
             <div className="flex justify-center">
-              <div ref={nametagRef} className="relative bg-white border-2 border-orange-400 overflow-hidden" style={{ width: "600px", height: "380px", fontFamily: "Arial, sans-serif" }}>
+              <div className="relative bg-white border-2 border-orange-400 overflow-hidden" style={{ width: "600px", height: "380px", fontFamily: "Arial, sans-serif" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "8px", background: "linear-gradient(to right, #ea580c, #f97316, #fb923c)" }} />
                 <div style={{ padding: "14px 20px 16px", height: "100%", display: "flex", flexDirection: "column", boxSizing: "border-box" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "12px", marginBottom: "10px" }}>
