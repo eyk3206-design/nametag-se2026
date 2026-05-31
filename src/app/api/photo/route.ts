@@ -11,11 +11,15 @@ export async function GET(request: NextRequest) {
     if (buffer) {
       const ext = filename.toLowerCase().split(".").pop();
       const contentType = ext === "png" ? "image/png" : ext === "gif" ? "image/gif" : ext === "webp" ? "image/webp" : "image/jpeg";
+      // Add cache-busting: use file modification time as ETag
+      // Short cache so updated photos show quickly
+      const cacheBust = Date.now().toString(36);
       return new NextResponse(buffer, {
         headers: {
           "Content-Type": contentType,
-          "Cache-Control": "public, max-age=86400",
+          "Cache-Control": "public, max-age=60, must-revalidate",
           "Access-Control-Allow-Origin": "*",
+          "X-Photo-Updated": cacheBust,
         },
       });
     }

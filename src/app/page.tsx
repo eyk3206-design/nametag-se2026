@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -10,8 +10,8 @@ import {
   Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger,
 } from "@/components/ui/dialog";
 import {
-  Search, Download, Loader2, Shield, Upload, Lock, X, CheckCircle,
-  AlertCircle, Pencil, Trash2, Plus, Cloud, Users,
+  Search, Loader2, Shield, Upload, Lock, X, CheckCircle,
+  AlertCircle, Pencil, Trash2, Plus, Cloud, Users, HardDrive, Minimize,
 } from "lucide-react";
 
 interface Participant {
@@ -33,14 +33,12 @@ export default function Home() {
   const [sobatId, setSobatId] = useState("");
   const [selectedParticipant, setSelectedParticipant] = useState<Participant | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [isDownloading, setIsDownloading] = useState(false);
+
   const [notFound, setNotFound] = useState(false);
   const [showSearchHint, setShowSearchHint] = useState(false);
-  const [showDownloadMsg, setShowDownloadMsg] = useState(false);
-
 
   // Storage status
-  const [storageStatus, setStorageStatus] = useState<{blobMode: boolean; writable: boolean; message: string} | null>(null);
+  const [storageStatus, setStorageStatus] = useState<{mode: string; label: string; description: string; writable: boolean; path?: string; blobMode: boolean; localDataDir: boolean} | null>(null);
 
   // Admin state
   const [adminOpen, setAdminOpen] = useState(false);
@@ -62,6 +60,52 @@ export default function Home() {
   const [formPhotoFile, setFormPhotoFile] = useState<File | null>(null);
   const [formPhotoPreview, setFormPhotoPreview] = useState<string | null>(null);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
+
+  // Fullscreen photo+QR mode for mobile
+  const [fullscreenMode, setFullscreenMode] = useState(false);
+  const fullscreenRef = useRef<HTMLDivElement>(null);
+
+  const enterFullscreen = useCallback(async () => {
+    setFullscreenMode(true);
+    // Use native Fullscreen API
+    await new Promise((r) => setTimeout(r, 50)); // wait for DOM render
+    try {
+      const el = fullscreenRef.current;
+      if (el) {
+        if (el.requestFullscreen) await el.requestFullscreen();
+        else if ((el as any).webkitRequestFullscreen) (el as any).webkitRequestFullscreen();
+        else if ((el as any).msRequestFullscreen) (el as any).msRequestFullscreen();
+      }
+    } catch {
+      // Fullscreen not supported or denied - overlay still shows
+    }
+  }, []);
+
+  const exitFullscreen = useCallback(async () => {
+    setFullscreenMode(false);
+    try {
+      if (document.fullscreenElement) {
+        await document.exitFullscreen();
+      } else if ((document as any).webkitExitFullscreen) {
+        (document as any).webkitExitFullscreen();
+      }
+    } catch {}
+  }, []);
+
+  // Sync fullscreen state when user exits via browser UI (Esc, back)
+  useEffect(() => {
+    const handler = () => {
+      if (!document.fullscreenElement) {
+        setFullscreenMode(false);
+      }
+    };
+    document.addEventListener("fullscreenchange", handler);
+    document.addEventListener("webkitfullscreenchange", handler);
+    return () => {
+      document.removeEventListener("fullscreenchange", handler);
+      document.removeEventListener("webkitfullscreenchange", handler);
+    };
+  }, []);
 
   // === SEARCH ===
   const handleSearch = useCallback(async () => {
@@ -85,31 +129,6 @@ export default function Home() {
       setIsLoading(false);
     }
   }, [sobatId]);
-
-  // === DOWNLOAD PNG (server-side generation) ===
-  const handleDownload = async () => {
-    if (!selectedParticipant) return;
-    setIsDownloading(true);
-    try {
-      const res = await fetch(`/api/nametag?sobat_id=${encodeURIComponent(selectedParticipant.sobat_id)}`);
-      if (!res.ok) throw new Error("Failed to generate");
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.download = `nametag-${selectedParticipant.sobat_id}.png`;
-      link.href = url;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      setShowDownloadMsg(true);
-      setTimeout(() => setShowDownloadMsg(false), 10000);
-    } catch (err) {
-      console.error("Download failed:", err);
-    } finally {
-      setIsDownloading(false);
-    }
-  };
 
   // === ADMIN ===
   const handleAdminLogin = () => {
@@ -251,7 +270,8 @@ export default function Home() {
   const getPhotoUrl = (filename: string) => {
     if (!filename) return null;
     if (filename.startsWith("http")) return filename;
-    return `/api/photo?filename=${encodeURIComponent(filename)}`;
+    // Add timestamp to prevent browser caching old photos
+    return `/api/photo?filename=${encodeURIComponent(filename)}&_t=${Date.now()}`;
   };
 
   // Photo URL for nametag display
@@ -323,32 +343,45 @@ export default function Home() {
                 ) : (
                   <div className="space-y-4 py-2">
                     {/* Storage status */}
-                    {storageStatus && !storageStatus.writable ? (
-                      <div className="bg-amber-50 border border-amber-300 rounded-lg p-3 flex items-start gap-2">
-                        <AlertCircle className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
+                    {storageStatus?.mode === "local-data-dir" ? (
+                      <div className="bg-emerald-50 border border-emerald-300 rounded-lg p-3 flex items-start gap-2">
+                        <HardDrive className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-sm font-semibold text-amber-800">Vercel Blob Storage Belum Diaktifkan</p>
-                          <p className="text-xs text-amber-700">Fitur admin memerlukan Vercel Blob Storage. Buka Vercel Dashboard → Storage → Create Blob → Link → Redeploy.</p>
+                          <p className="text-sm font-semibold text-emerald-800">Penyimpanan Lokal (Google Drive Desktop)</p>
+                          <p className="text-xs text-emerald-700">Data tersimpan di: <code className="bg-emerald-100 px-1 rounded text-[10px]">{storageStatus.path}</code></p>
+                          <p className="text-xs text-emerald-600 mt-0.5">Semua fitur admin tersedia. Data otomatis tersinkronisasi ke Google Drive.</p>
                         </div>
                       </div>
-                    ) : storageStatus?.blobMode ? (
+                    ) : storageStatus?.mode === "vercel-blob" ? (
                       <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 flex items-start gap-2">
                         <Cloud className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-sm font-semibold text-blue-800">Penyimpanan Cloud Aktif</p>
+                          <p className="text-sm font-semibold text-blue-800">Vercel Blob Storage (Cloud)</p>
                           <p className="text-xs text-blue-700">Data peserta dan foto disimpan di Vercel Blob. Semua fitur admin tersedia.</p>
                         </div>
                       </div>
-                    ) : (
-                      <div className="bg-green-50 border border-green-200 rounded-lg p-3 flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
+                    ) : storageStatus?.mode === "read-only" ? (
+                      <div className="bg-amber-50 border border-amber-300 rounded-lg p-3 flex items-start gap-2">
+                        <AlertCircle className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-sm font-semibold text-green-800">Mode Lokal</p>
-                          <p className="text-xs text-green-700">Data disimpan di komputer lokal. Semua fitur admin tersedia.</p>
+                          <p className="text-sm font-semibold text-amber-800">Mode Read-Only</p>
+                          <p className="text-xs text-amber-700">Fitur admin tidak tersedia dalam mode read-only. Untuk mengelola data, jalankan aplikasi secara lokal dengan LOCAL_DATA_DIR atau aktifkan Vercel Blob Storage.</p>
                         </div>
                       </div>
-                    )}
+                    ) : null}
 
+                    {/* Read-only mode: disable admin features */}
+                    {storageStatus?.mode === "read-only" ? (
+                      <div className="py-4 text-center">
+                        <AlertCircle className="h-12 w-12 text-amber-400 mx-auto mb-3" />
+                        <p className="text-sm font-semibold text-amber-800 mb-1">Fitur Admin Tidak Tersedia</p>
+                        <p className="text-xs text-amber-700 max-w-md mx-auto">Aplikasi berjalan dalam mode read-only. Untuk mengelola data peserta, jalankan aplikasi secara lokal dengan menambahkan <code className="bg-amber-100 px-1.5 py-0.5 rounded text-[10px] font-mono">LOCAL_DATA_DIR</code> di file <code className="bg-amber-100 px-1.5 py-0.5 rounded text-[10px] font-mono">.env.local</code></p>
+                        <div className="mt-4 bg-gray-50 border border-gray-200 rounded-lg p-3 text-left max-w-md mx-auto">
+                          <p className="text-[10px] font-semibold text-gray-600 mb-1">Contoh .env.local:</p>
+                          <code className="text-[10px] text-gray-800 font-mono">LOCAL_DATA_DIR=G:\My Drive\2026_Project_1\db_se206</code>
+                        </div>
+                      </div>
+                    ) : (<>
                     {/* Tabs */}
                     <div className="flex border-b border-orange-200">
                       <button onClick={() => setAdminTab("upload")}
@@ -504,6 +537,7 @@ export default function Home() {
                         )}
                       </div>
                     )}
+                    </>)}
                   </div>
                 )}
               </DialogContent>
@@ -547,30 +581,77 @@ export default function Home() {
           </CardContent>
         </Card>
 
+        {/* Fullscreen Photo + QR Mode (mobile only) */}
+        {fullscreenMode && selectedParticipant && (
+          <div
+            ref={fullscreenRef}
+            className="fixed inset-0 z-[60] bg-white flex flex-col items-center justify-center md:hidden"
+            onClick={exitFullscreen}
+            style={{ cursor: "pointer" }}
+          >
+            {/* Close button */}
+            <button
+              onClick={exitFullscreen}
+              className="absolute top-4 right-4 z-20 p-2 bg-black/30 hover:bg-black/50 text-white rounded-full transition-colors"
+            >
+              <Minimize className="h-5 w-5" />
+            </button>
+
+            {/* Photo - top */}
+            <div
+              style={{
+                width: "min(80vw, 320px)",
+                aspectRatio: "3/4",
+                border: "3px solid #f97316",
+                borderRadius: "12px",
+                overflow: "hidden",
+                background: "#fff7ed",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginBottom: "24px",
+              }}
+            >
+              {displayPhotoUrl ? (
+                <img src={displayPhotoUrl} alt={selectedParticipant.nama} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", color: "#ea580c" }}>
+                  <span style={{ fontSize: "64px", lineHeight: 1 }}>&#128100;</span>
+                  <span style={{ fontSize: "14px", fontWeight: 600, marginTop: "8px" }}>{getInitials(selectedParticipant.nama)}</span>
+                </div>
+              )}
+            </div>
+
+            {/* QR Code - bottom */}
+            <div style={{
+              background: "#fff",
+              padding: "12px",
+              border: "2px solid #fdba74",
+              borderRadius: "12px",
+              boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
+            }}>
+              <QRCodeSVG value={selectedParticipant.sobat_id} size={160} level="M" fgColor="#c2410c" bgColor="#ffffff" />
+            </div>
+
+            {/* Hint */}
+            <p className="absolute bottom-6 left-0 right-0 text-center text-xs text-gray-400 px-6">Screen Shoot layar ini untuk di tunjukan ke Panitia Pelatihan.</p>
+          </div>
+        )}
+
         {/* Nametag Display */}
         {selectedParticipant && (
           <div className="space-y-6">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-orange-800">Nametag Peserta</h2>
-              <Button onClick={handleDownload} disabled={isDownloading} className="bg-orange-600 hover:bg-orange-700 text-white gap-2">
-                {isDownloading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Download className="h-4 w-4" />}
-                {isDownloading ? "Mengunduh..." : "Unduh PNG"}
-              </Button>
+              <h2 className="text-lg font-semibold text-orange-800">Klik Nametag dan Perlihatkan kepada Panitia</h2>
             </div>
 
-            {showDownloadMsg && (
-              <div className="bg-orange-50 border-2 border-orange-300 rounded-xl p-5 flex items-start gap-3">
-                <CheckCircle className="h-6 w-6 text-orange-600 shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-base font-semibold text-orange-800 mb-1">Nametag Berhasil Diunduh!</p>
-                  <p className="text-sm text-orange-700">Simpan NameTag Anda dengan Baik, Perlihatkan Kepada Petugas Ketika Berada di Lokasi Training Center.</p>
-                </div>
-                <button onClick={() => setShowDownloadMsg(false)} className="shrink-0 ml-auto text-orange-400 hover:text-orange-700"><X className="h-5 w-5" /></button>
-              </div>
-            )}
-
             <div className="flex justify-center">
-              <div className="relative bg-white border-2 border-orange-400 overflow-hidden" style={{ width: "600px", height: "380px", fontFamily: "Arial, sans-serif" }}>
+              <div
+                className="relative bg-white border-2 border-orange-400 overflow-hidden md:cursor-default cursor-pointer select-none"
+                style={{ width: "600px", height: "380px", fontFamily: "Arial, sans-serif", WebkitUserSelect: "none" }}
+                onClick={() => { if (window.innerWidth < 768) enterFullscreen(); }}
+                onContextMenu={(e) => e.preventDefault()}
+              >
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "8px", background: "linear-gradient(to right, #ea580c, #f97316, #fb923c)" }} />
                 <div style={{ padding: "14px 20px 16px", height: "100%", display: "flex", flexDirection: "column", boxSizing: "border-box" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "12px", marginBottom: "10px" }}>

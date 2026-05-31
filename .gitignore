@@ -48,3 +48,8 @@ Caddyfile
 .zscripts/
 package-lock.json
 .zscripts/
+# deployment zips
+*.zip
+# deployment bundles
+*.tar.gz
+*.bundle
