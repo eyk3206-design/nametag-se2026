@@ -199,8 +199,23 @@ export async function getParticipants(): Promise<Participant[]> {
     return participants;
   }
 
-  // Mode 3: Read-only (bundled default data)
-  logStorage("getParticipants", "Read-only mode, using bundled default data");
+  // Mode 3: Read-only — try reading from public/data/participants.json first
+  logStorage("getParticipants", "Read-only mode, checking public/data/participants.json");
+  try {
+    const fs = await import("fs");
+    const path = await import("path");
+    const jsonPath = path.join(process.cwd(), "public", "data", "participants.json");
+    if (fs.existsSync(jsonPath)) {
+      const data = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+      logStorage("getParticipants", `Loaded ${data.length} participants from public/data/participants.json`);
+      return data;
+    }
+  } catch (error) {
+    logStorage("getParticipants", "Error reading public/data/participants.json", error);
+  }
+
+  // Fallback: bundled default data from TypeScript
+  logStorage("getParticipants", "Falling back to bundled default data");
   const { participants } = await import("@/data/participants");
   return participants;
 }

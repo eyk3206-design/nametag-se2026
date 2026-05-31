@@ -86,6 +86,15 @@ const tsPath = path.join(PROJECT_ROOT, "src", "data", "participants.ts");
 fs.writeFileSync(tsPath, tsContent, "utf-8");
 console.log(`📝 Updated: src/data/participants.ts\n`);
 
+// Step 2b: Update public/data/participants.json (for Vercel read-only mode)
+const publicDataDir = path.join(PROJECT_ROOT, "public", "data");
+if (!fs.existsSync(publicDataDir)) {
+  fs.mkdirSync(publicDataDir, { recursive: true });
+}
+const publicJsonPath = path.join(publicDataDir, "participants.json");
+fs.writeFileSync(publicJsonPath, JSON.stringify(participants, null, 2), "utf-8");
+console.log(`📝 Updated: public/data/participants.json (${participants.length} peserta)\n`);
+
 // Step 3: Copy photos
 const sourcePhotosDir = path.join(LOCAL_DATA_DIR, "photos");
 const targetPhotosDir = path.join(PROJECT_ROOT, "public", "photos");
