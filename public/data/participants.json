@@ -1,15 +1,15 @@
 [
   {
-    "sobat_id": "320622020058",
+    "sobat_id": 320622020058,
     "nama": "AJAY ARIP SUPRIATNA",
-    "kecamatan": "(211) SARIWANGI",
+    "kecamatan": "SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
     "tempat_pelatihan": "AlHambra Convention & Hotel",
     "kelas": "KELAS D",
     "photo_filename": "320622020058.png"
   },
   {
-    "sobat_id": "320622020024",
+    "sobat_id": 320622020024,
     "nama": "DUDU ALI SYAHBANA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -18,7 +18,7 @@
     "photo_filename": "320622020024.png"
   },
   {
-    "sobat_id": "320622091343",
+    "sobat_id": 320622091343,
     "nama": "IDA ROSIDA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -27,7 +27,7 @@
     "photo_filename": "320622091343.png"
   },
   {
-    "sobat_id": "320623030253",
+    "sobat_id": 320623030253,
     "nama": "URUL",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -36,7 +36,7 @@
     "photo_filename": "320623030253.png"
   },
   {
-    "sobat_id": "320622091301",
+    "sobat_id": 320622091301,
     "nama": "NIZMAH SILMI LESTARI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -45,7 +45,7 @@
     "photo_filename": "320622091301.png"
   },
   {
-    "sobat_id": "320623030207",
+    "sobat_id": 320623030207,
     "nama": "NURLATIFAH TSANIYATUL WILADAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -54,7 +54,7 @@
     "photo_filename": "320623030207.png"
   },
   {
-    "sobat_id": "320622010120",
+    "sobat_id": 320622010120,
     "nama": "SIDIK",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -63,7 +63,7 @@
     "photo_filename": "320622010120.png"
   },
   {
-    "sobat_id": "320622090523",
+    "sobat_id": 320622090523,
     "nama": "MIA AMALIA",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -72,7 +72,7 @@
     "photo_filename": "320622090523.png"
   },
   {
-    "sobat_id": "320622010103",
+    "sobat_id": 320622010103,
     "nama": "JAJANG",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -81,7 +81,7 @@
     "photo_filename": "320622010103.png"
   },
   {
-    "sobat_id": "320621100111",
+    "sobat_id": 320621100111,
     "nama": "NOVIE SUSIYANTI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -90,7 +90,7 @@
     "photo_filename": "320621100111.png"
   },
   {
-    "sobat_id": "320623030245",
+    "sobat_id": 320623030245,
     "nama": "ADE HANTI TRINURANTY",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -99,7 +99,7 @@
     "photo_filename": "320623030245.png"
   },
   {
-    "sobat_id": "320622091170",
+    "sobat_id": 320622091170,
     "nama": "DEDE AZID",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -108,7 +108,7 @@
     "photo_filename": "320622091170.png"
   },
   {
-    "sobat_id": "320622010043",
+    "sobat_id": 320622010043,
     "nama": "AGUS JUMENA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -117,7 +117,7 @@
     "photo_filename": "320622010043.png"
   },
   {
-    "sobat_id": "320622090921",
+    "sobat_id": 320622090921,
     "nama": "LILIS NURJANNAH",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -126,7 +126,7 @@
     "photo_filename": "320622090921.png"
   },
   {
-    "sobat_id": "320623030090",
+    "sobat_id": 320623030090,
     "nama": "DEDI HIDAYAT",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -135,7 +135,7 @@
     "photo_filename": "320623030090.png"
   },
   {
-    "sobat_id": "320622091164",
+    "sobat_id": 320622091164,
     "nama": "RISNI YULIANI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -144,7 +144,7 @@
     "photo_filename": "320622091164.png"
   },
   {
-    "sobat_id": "320622010061",
+    "sobat_id": 320622010061,
     "nama": "HERDIYANDI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -153,7 +153,7 @@
     "photo_filename": "320622010061.png"
   },
   {
-    "sobat_id": "320622030065",
+    "sobat_id": 320622030065,
     "nama": "PIPIH NURAENI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -162,7 +162,7 @@
     "photo_filename": "320622030065.png"
   },
   {
-    "sobat_id": "320621100071",
+    "sobat_id": 320621100071,
     "nama": "ARI WAHARU",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -171,7 +171,7 @@
     "photo_filename": "320621100071.png"
   },
   {
-    "sobat_id": "320622010063",
+    "sobat_id": 320622010063,
     "nama": "INDRI SUSANTI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -180,7 +180,7 @@
     "photo_filename": "320622010063.png"
   },
   {
-    "sobat_id": "320622100405",
+    "sobat_id": 320622100405,
     "nama": "TITO GUSTIEN AS",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -189,7 +189,7 @@
     "photo_filename": "320622100405.png"
   },
   {
-    "sobat_id": "320622010101",
+    "sobat_id": 320622010101,
     "nama": "FAZRI RAMDHANI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -198,7 +198,7 @@
     "photo_filename": "320622010101.png"
   },
   {
-    "sobat_id": "320622091154",
+    "sobat_id": 320622091154,
     "nama": "JAJANG NURMANSYAH",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -207,7 +207,7 @@
     "photo_filename": "320622091154.png"
   },
   {
-    "sobat_id": "320622010098",
+    "sobat_id": 320622010098,
     "nama": "AGUS SALIM",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -216,7 +216,7 @@
     "photo_filename": "320622010098.png"
   },
   {
-    "sobat_id": "320622010099",
+    "sobat_id": 320622010099,
     "nama": "ARIPIN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -225,7 +225,7 @@
     "photo_filename": "320622010099.png"
   },
   {
-    "sobat_id": "320622091607",
+    "sobat_id": 320622091607,
     "nama": "RIKI HERDIANA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -234,7 +234,7 @@
     "photo_filename": "320622091607.png"
   },
   {
-    "sobat_id": "320622030031",
+    "sobat_id": 320622030031,
     "nama": "FITRI SUPARTIKA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -243,7 +243,7 @@
     "photo_filename": "320622030031.png"
   },
   {
-    "sobat_id": "320622030028",
+    "sobat_id": 320622030028,
     "nama": "ULFA SRI INDRIYANI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -252,7 +252,7 @@
     "photo_filename": "320622030028.png"
   },
   {
-    "sobat_id": "320622090335",
+    "sobat_id": 320622090335,
     "nama": "DADAN MUHAMAD RAMDAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -261,7 +261,7 @@
     "photo_filename": "320622090335.png"
   },
   {
-    "sobat_id": "320623110256",
+    "sobat_id": 320623110256,
     "nama": "SIDIK SUSANTO",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -270,7 +270,7 @@
     "photo_filename": "320623110256.png"
   },
   {
-    "sobat_id": "320623030047",
+    "sobat_id": 320623030047,
     "nama": "TEDI RUSTANDI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -279,7 +279,7 @@
     "photo_filename": "320623030047.png"
   },
   {
-    "sobat_id": "320622090396",
+    "sobat_id": 320622090396,
     "nama": "CITRA MEGALIA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -288,7 +288,7 @@
     "photo_filename": "320622090396.png"
   },
   {
-    "sobat_id": "320622090933",
+    "sobat_id": 320622090933,
     "nama": "INDAH SAPITRI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -297,7 +297,7 @@
     "photo_filename": "320622090933.png"
   },
   {
-    "sobat_id": "320623110772",
+    "sobat_id": 320623110772,
     "nama": "ESTI SUSANTI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -306,7 +306,7 @@
     "photo_filename": "320623110772.png"
   },
   {
-    "sobat_id": "320622090925",
+    "sobat_id": 320622090925,
     "nama": "ASEP DUSAERI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -315,7 +315,7 @@
     "photo_filename": "320622090925.png"
   },
   {
-    "sobat_id": "320622090504",
+    "sobat_id": 320622090504,
     "nama": "JAJANG NURJANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -324,7 +324,7 @@
     "photo_filename": "320622090504.png"
   },
   {
-    "sobat_id": "320622091248",
+    "sobat_id": 320622091248,
     "nama": "RIANDI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -333,7 +333,7 @@
     "photo_filename": "320622091248.png"
   },
   {
-    "sobat_id": "320622020027",
+    "sobat_id": 320622020027,
     "nama": "YUSUP NUGRAHA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -342,7 +342,7 @@
     "photo_filename": "320622020027.png"
   },
   {
-    "sobat_id": "320622020123",
+    "sobat_id": 320622020123,
     "nama": "IJANG HERDIANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -351,7 +351,7 @@
     "photo_filename": "320622020123.png"
   },
   {
-    "sobat_id": "320622091687",
+    "sobat_id": 320622091687,
     "nama": "YUDI NURYANTO",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -360,7 +360,7 @@
     "photo_filename": "320622091687.png"
   },
   {
-    "sobat_id": "320622020028",
+    "sobat_id": 320622020028,
     "nama": "NUNUNG NURHIDAYAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -369,7 +369,7 @@
     "photo_filename": "320622020028.png"
   },
   {
-    "sobat_id": "320622020158",
+    "sobat_id": 320622020158,
     "nama": "MAMAN SOMANTRI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -378,7 +378,7 @@
     "photo_filename": "320622020158.png"
   },
   {
-    "sobat_id": "320622020025",
+    "sobat_id": 320622020025,
     "nama": "ANDI LALA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -387,7 +387,7 @@
     "photo_filename": "320622020025.png"
   },
   {
-    "sobat_id": "320622020022",
+    "sobat_id": 320622020022,
     "nama": "ELI JUHAELI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -396,7 +396,7 @@
     "photo_filename": "320622020022.png"
   },
   {
-    "sobat_id": "320623030277",
+    "sobat_id": 320623030277,
     "nama": "ATANG",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -405,7 +405,7 @@
     "photo_filename": "320623030277.png"
   },
   {
-    "sobat_id": "320622090875",
+    "sobat_id": 320622090875,
     "nama": "JAJANG SETIAWAN",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -414,7 +414,7 @@
     "photo_filename": "320622090875.png"
   },
   {
-    "sobat_id": "320622030017",
+    "sobat_id": 320622030017,
     "nama": "DINA SRI MULYATI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -423,7 +423,7 @@
     "photo_filename": "320622030017.png"
   },
   {
-    "sobat_id": "320622010127",
+    "sobat_id": 320622010127,
     "nama": "PARHAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -432,7 +432,7 @@
     "photo_filename": "320622010127.png"
   },
   {
-    "sobat_id": "320621100040",
+    "sobat_id": 320621100040,
     "nama": "ERYK RISNANDY",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -441,7 +441,7 @@
     "photo_filename": "320621100040.png"
   },
   {
-    "sobat_id": "320622020084",
+    "sobat_id": 320622020084,
     "nama": "OTANG SUTISNA",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -450,7 +450,7 @@
     "photo_filename": "320622020084.png"
   },
   {
-    "sobat_id": "320622010142",
+    "sobat_id": 320622010142,
     "nama": "BUDI MAULANA YUSUP",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -459,7 +459,7 @@
     "photo_filename": "320622010142.png"
   },
   {
-    "sobat_id": "320623030367",
+    "sobat_id": 320623030367,
     "nama": "AHMAD SYA'BANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -468,7 +468,7 @@
     "photo_filename": "320623030367.png"
   },
   {
-    "sobat_id": "320623110273",
+    "sobat_id": 320623110273,
     "nama": "KAKA IQBAL MAULANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -477,7 +477,7 @@
     "photo_filename": "320623110273.png"
   },
   {
-    "sobat_id": "320622030051",
+    "sobat_id": 320622030051,
     "nama": "UU PARIDA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -486,7 +486,7 @@
     "photo_filename": "320622030051.png"
   },
   {
-    "sobat_id": "320622010143",
+    "sobat_id": 320622010143,
     "nama": "HESTI SUSANTI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -495,7 +495,7 @@
     "photo_filename": "320622010143.png"
   },
   {
-    "sobat_id": "320621100057",
+    "sobat_id": 320621100057,
     "nama": "IIS SURYATI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -504,7 +504,7 @@
     "photo_filename": "320621100057.png"
   },
   {
-    "sobat_id": "320622020002",
+    "sobat_id": 320622020002,
     "nama": "ANWAR SIDIK",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -513,7 +513,7 @@
     "photo_filename": "320622020002.png"
   },
   {
-    "sobat_id": "320622030047",
+    "sobat_id": 320622030047,
     "nama": "ALIT YUDI AHIRIANA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -522,7 +522,7 @@
     "photo_filename": "320622030047.png"
   },
   {
-    "sobat_id": "320621100093",
+    "sobat_id": 320621100093,
     "nama": "HUSNI DZULFIKAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -531,7 +531,7 @@
     "photo_filename": "320621100093.png"
   },
   {
-    "sobat_id": "320622020089",
+    "sobat_id": 320622020089,
     "nama": "LELI TRI WAHYUNI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -540,7 +540,7 @@
     "photo_filename": "320622020089.png"
   },
   {
-    "sobat_id": "320622100675",
+    "sobat_id": 320622100675,
     "nama": "ANIS DELITA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -549,7 +549,7 @@
     "photo_filename": "320622100675.png"
   },
   {
-    "sobat_id": "320622100134",
+    "sobat_id": 320622100134,
     "nama": "MELSA DWI SANTIKA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -558,7 +558,7 @@
     "photo_filename": "320622100134.png"
   },
   {
-    "sobat_id": "320622010129",
+    "sobat_id": 320622010129,
     "nama": "DIKI SAEPUDIN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -567,7 +567,7 @@
     "photo_filename": "320622010129.png"
   },
   {
-    "sobat_id": "320622020090",
+    "sobat_id": 320622020090,
     "nama": "RISFAUZIAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -576,7 +576,7 @@
     "photo_filename": "320622020090.png"
   },
   {
-    "sobat_id": "320623060010",
+    "sobat_id": 320623060010,
     "nama": "INDI ASTRIYANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -585,7 +585,7 @@
     "photo_filename": "320623060010.png"
   },
   {
-    "sobat_id": "320623110166",
+    "sobat_id": 320623110166,
     "nama": "ULFAH SYARIFAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -594,7 +594,7 @@
     "photo_filename": "320623110166.png"
   },
   {
-    "sobat_id": "320623030120",
+    "sobat_id": 320623030120,
     "nama": "ERGADIPURA RAMADHAN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -603,7 +603,7 @@
     "photo_filename": "320623030120.png"
   },
   {
-    "sobat_id": "320623110357",
+    "sobat_id": 320623110357,
     "nama": "DWI SUCIYATI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -612,7 +612,7 @@
     "photo_filename": "320623110357.png"
   },
   {
-    "sobat_id": "320623110683",
+    "sobat_id": 320623110683,
     "nama": "AI ASWIPATUL JANNAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -621,7 +621,7 @@
     "photo_filename": "320623110683.png"
   },
   {
-    "sobat_id": "320622090055",
+    "sobat_id": 320622090055,
     "nama": "WINA NUR AULIA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -630,7 +630,7 @@
     "photo_filename": "320622090055.png"
   },
   {
-    "sobat_id": "320622090386",
+    "sobat_id": 320622090386,
     "nama": "REGY DWI KUSUMA MARWA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -639,7 +639,7 @@
     "photo_filename": "320622090386.png"
   },
   {
-    "sobat_id": "320622090835",
+    "sobat_id": 320622090835,
     "nama": "SYIFA FITRI CHANDRIANI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -648,7 +648,7 @@
     "photo_filename": "320622090835.png"
   },
   {
-    "sobat_id": "320622010123",
+    "sobat_id": 320622010123,
     "nama": "MUHAMAD RESHA SATIA GUMILAR",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -657,7 +657,7 @@
     "photo_filename": "320622010123.png"
   },
   {
-    "sobat_id": "320622100387",
+    "sobat_id": 320622100387,
     "nama": "DEDE MULYATI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -666,7 +666,7 @@
     "photo_filename": "320622100387.png"
   },
   {
-    "sobat_id": "320622090546",
+    "sobat_id": 320622090546,
     "nama": "DADANG SUHERLY",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -675,7 +675,7 @@
     "photo_filename": "320622090546.png"
   },
   {
-    "sobat_id": "320622030074",
+    "sobat_id": 320622030074,
     "nama": "ANGLING TIRTA RYANA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -684,7 +684,7 @@
     "photo_filename": "320622030074.png"
   },
   {
-    "sobat_id": "320621100099",
+    "sobat_id": 320621100099,
     "nama": "RIZKI RESTU FAUZI",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -693,7 +693,7 @@
     "photo_filename": "320621100099.png"
   },
   {
-    "sobat_id": "320622090689",
+    "sobat_id": 320622090689,
     "nama": "YAYAT RUHIYAT",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -702,7 +702,7 @@
     "photo_filename": "320622090689.png"
   },
   {
-    "sobat_id": "320626050730",
+    "sobat_id": 320626050730,
     "nama": "GUNAWAN",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -711,7 +711,7 @@
     "photo_filename": "320626050730.png"
   },
   {
-    "sobat_id": "320626050501",
+    "sobat_id": 320626050501,
     "nama": "ABDUL MUIZ NURJAMAN",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -720,7 +720,7 @@
     "photo_filename": "320626050501.png"
   },
   {
-    "sobat_id": "320622090333",
+    "sobat_id": 320622090333,
     "nama": "RAFIDATUSSYFA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -729,7 +729,7 @@
     "photo_filename": "320622090333.png"
   },
   {
-    "sobat_id": "320622090792",
+    "sobat_id": 320622090792,
     "nama": "ABDUL ROSYID AL RIDHO",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -738,7 +738,7 @@
     "photo_filename": "320622090792.png"
   },
   {
-    "sobat_id": "320622090722",
+    "sobat_id": 320622090722,
     "nama": "ITA ROSITA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -747,7 +747,7 @@
     "photo_filename": "320622090722.png"
   },
   {
-    "sobat_id": "320622100187",
+    "sobat_id": 320622100187,
     "nama": "SITI MARYAM",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -756,7 +756,7 @@
     "photo_filename": "320622100187.png"
   },
   {
-    "sobat_id": "320626050607",
+    "sobat_id": 320626050607,
     "nama": "SAEPUL MIQDAR",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -765,7 +765,7 @@
     "photo_filename": "320626050607.png"
   },
   {
-    "sobat_id": "320626050568",
+    "sobat_id": 320626050568,
     "nama": "ZAINAL ARIFIN",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -774,7 +774,7 @@
     "photo_filename": "320626050568.png"
   },
   {
-    "sobat_id": "320623110269",
+    "sobat_id": 320623110269,
     "nama": "NURFADILAH",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -783,7 +783,7 @@
     "photo_filename": "320623110269.png"
   },
   {
-    "sobat_id": "320626050816",
+    "sobat_id": 320626050816,
     "nama": "HANIFAH NURUL AMINI",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -792,7 +792,7 @@
     "photo_filename": "320626050816.png"
   },
   {
-    "sobat_id": "320626050380",
+    "sobat_id": 320626050380,
     "nama": "ALI PURNAMA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -801,7 +801,7 @@
     "photo_filename": "320626050380.png"
   },
   {
-    "sobat_id": "320626050689",
+    "sobat_id": 320626050689,
     "nama": "RISMA FITRIA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -810,7 +810,7 @@
     "photo_filename": "320626050689.png"
   },
   {
-    "sobat_id": "320626050590",
+    "sobat_id": 320626050590,
     "nama": "SITI SAROH",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -819,7 +819,7 @@
     "photo_filename": "320626050590.png"
   },
   {
-    "sobat_id": "320626050488",
+    "sobat_id": 320626050488,
     "nama": "ZIHAN AULIA HENDARSYAH",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -828,7 +828,7 @@
     "photo_filename": "320626050488.png"
   },
   {
-    "sobat_id": "320626050641",
+    "sobat_id": 320626050641,
     "nama": "NADILA SEPIANI",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -837,7 +837,7 @@
     "photo_filename": "320626050641.png"
   },
   {
-    "sobat_id": "320626050646",
+    "sobat_id": 320626050646,
     "nama": "RIZAL ANDRIAN",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -846,7 +846,7 @@
     "photo_filename": "320626050646.png"
   },
   {
-    "sobat_id": "320626050654",
+    "sobat_id": 320626050654,
     "nama": "SELLA NURFAJRI",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -855,7 +855,7 @@
     "photo_filename": "320626050654.png"
   },
   {
-    "sobat_id": "320626050870",
+    "sobat_id": 320626050870,
     "nama": "AGUNG NURHAMAD",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -864,7 +864,7 @@
     "photo_filename": "320626050870.png"
   },
   {
-    "sobat_id": "320626050356",
+    "sobat_id": 320626050356,
     "nama": "SHIFA TUROHMA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -873,7 +873,7 @@
     "photo_filename": "320626050356.png"
   },
   {
-    "sobat_id": "320626050442",
+    "sobat_id": 320626050442,
     "nama": "IIS TIA SUMIATI",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -882,7 +882,7 @@
     "photo_filename": "320626050442.png"
   },
   {
-    "sobat_id": "320622091375",
+    "sobat_id": 320622091375,
     "nama": "EGI JULIAN HERDIANA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -891,7 +891,7 @@
     "photo_filename": "320622091375.png"
   },
   {
-    "sobat_id": "320623110693",
+    "sobat_id": 320623110693,
     "nama": "PENTI SUPENTI, SE",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -900,7 +900,7 @@
     "photo_filename": "320623110693.png"
   },
   {
-    "sobat_id": "320623030068",
+    "sobat_id": 320623030068,
     "nama": "NELA DIAN MELIANI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -909,7 +909,7 @@
     "photo_filename": "320623030068.png"
   },
   {
-    "sobat_id": "320622091190",
+    "sobat_id": 320622091190,
     "nama": "YONA RAMDANA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -918,7 +918,7 @@
     "photo_filename": "320622091190.png"
   },
   {
-    "sobat_id": "320626050162",
+    "sobat_id": 320626050162,
     "nama": "IJAD NURJAMAN",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -927,7 +927,7 @@
     "photo_filename": "320626050162.png"
   },
   {
-    "sobat_id": "320622091220",
+    "sobat_id": 320622091220,
     "nama": "NURSOLEHUDIN AL-AYUBI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -936,7 +936,7 @@
     "photo_filename": "320622091220.png"
   },
   {
-    "sobat_id": "320622091226",
+    "sobat_id": 320622091226,
     "nama": "ADE SITI JULAEHA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -945,7 +945,7 @@
     "photo_filename": "320622091226.png"
   },
   {
-    "sobat_id": "320622091227",
+    "sobat_id": 320622091227,
     "nama": "HENDI SUTISNA MUNGGARAN",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -954,7 +954,7 @@
     "photo_filename": "320622091227.png"
   },
   {
-    "sobat_id": "320622091249",
+    "sobat_id": 320622091249,
     "nama": "WULAN DAMAYANTI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -963,7 +963,7 @@
     "photo_filename": "320622091249.png"
   },
   {
-    "sobat_id": "320622100444",
+    "sobat_id": 320622100444,
     "nama": "YUSNI NAZAR",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -972,7 +972,7 @@
     "photo_filename": "320622100444.png"
   },
   {
-    "sobat_id": "320622091329",
+    "sobat_id": 320622091329,
     "nama": "DENDI ISKANDAR",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -981,7 +981,7 @@
     "photo_filename": "320622091329.png"
   },
   {
-    "sobat_id": "320622100294",
+    "sobat_id": 320622100294,
     "nama": "MIA RIMA WIDIANTINA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -990,7 +990,7 @@
     "photo_filename": "320622100294.png"
   },
   {
-    "sobat_id": "320622091580",
+    "sobat_id": 320622091580,
     "nama": "DINA YULIANA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -999,7 +999,7 @@
     "photo_filename": "320622091580.png"
   },
   {
-    "sobat_id": "320623030312",
+    "sobat_id": 320623030312,
     "nama": "NIA KUSNIA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1008,7 +1008,7 @@
     "photo_filename": "320623030312.png"
   },
   {
-    "sobat_id": "320623060099",
+    "sobat_id": 320623060099,
     "nama": "RAHMAT SOLEHUDIN EKA KURNIAWAN",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1017,7 +1017,7 @@
     "photo_filename": "320623060099.png"
   },
   {
-    "sobat_id": "320623110309",
+    "sobat_id": 320623110309,
     "nama": "NURUL IHWAN",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1026,7 +1026,7 @@
     "photo_filename": "320623110309.png"
   },
   {
-    "sobat_id": "320623110782",
+    "sobat_id": 320623110782,
     "nama": "AI INDRIYANI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1035,7 +1035,7 @@
     "photo_filename": "320623110782.png"
   },
   {
-    "sobat_id": "320623110400",
+    "sobat_id": 320623110400,
     "nama": "WITA RATNA JUWITA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1044,7 +1044,7 @@
     "photo_filename": "320623110400.png"
   },
   {
-    "sobat_id": "320626050144",
+    "sobat_id": 320626050144,
     "nama": "CONNIE HARTANTI HERYANA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1053,7 +1053,7 @@
     "photo_filename": "320626050144.png"
   },
   {
-    "sobat_id": "320626050145",
+    "sobat_id": 320626050145,
     "nama": "ACEP RAHMAT RAMDANI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1062,7 +1062,7 @@
     "photo_filename": "320626050145.png"
   },
   {
-    "sobat_id": "320626050143",
+    "sobat_id": 320626050143,
     "nama": "RIA YULIATI DAMARSARI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1071,7 +1071,7 @@
     "photo_filename": "320626050143.png"
   },
   {
-    "sobat_id": "320626050154",
+    "sobat_id": 320626050154,
     "nama": "REIHAN ZULAZMI AZIZ",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1080,7 +1080,7 @@
     "photo_filename": "320626050154.png"
   },
   {
-    "sobat_id": "320626050225",
+    "sobat_id": 320626050225,
     "nama": "GILANG PURNAMA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1089,7 +1089,7 @@
     "photo_filename": "320626050225.png"
   },
   {
-    "sobat_id": "320626050228",
+    "sobat_id": 320626050228,
     "nama": "HILMI JUANDI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1098,7 +1098,7 @@
     "photo_filename": "320626050228.png"
   },
   {
-    "sobat_id": "320626050232",
+    "sobat_id": 320626050232,
     "nama": "POPON PATIMAH",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1107,7 +1107,7 @@
     "photo_filename": "320626050232.png"
   },
   {
-    "sobat_id": "320626050234",
+    "sobat_id": 320626050234,
     "nama": "AAN NUGRAHA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1116,7 +1116,7 @@
     "photo_filename": "320626050234.png"
   },
   {
-    "sobat_id": "320626050236",
+    "sobat_id": 320626050236,
     "nama": "RINA RAHMAWATI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1125,7 +1125,7 @@
     "photo_filename": "320626050236.png"
   },
   {
-    "sobat_id": "320626050082",
+    "sobat_id": 320626050082,
     "nama": "MAYA RISMAYANTI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1134,7 +1134,7 @@
     "photo_filename": "320626050082.png"
   },
   {
-    "sobat_id": "320623030091",
+    "sobat_id": 320623030091,
     "nama": "ENENG NOVI NOVIA",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1143,7 +1143,7 @@
     "photo_filename": "320623030091.png"
   },
   {
-    "sobat_id": "320626050241",
+    "sobat_id": 320626050241,
     "nama": "ADI MUHAMAD",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1152,7 +1152,7 @@
     "photo_filename": "320626050241.png"
   },
   {
-    "sobat_id": "320626050242",
+    "sobat_id": 320626050242,
     "nama": "RIFQI FAUZAN",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1161,7 +1161,7 @@
     "photo_filename": "320626050242.png"
   },
   {
-    "sobat_id": "320626050163",
+    "sobat_id": 320626050163,
     "nama": "ANNISA RAIHANI",
     "kecamatan": "(150) CINEAM",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1170,7 +1170,7 @@
     "photo_filename": "320626050163.png"
   },
   {
-    "sobat_id": "320623030158",
+    "sobat_id": 320623030158,
     "nama": "WIWIN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1179,7 +1179,7 @@
     "photo_filename": "320623030158.png"
   },
   {
-    "sobat_id": "320623030139",
+    "sobat_id": 320623030139,
     "nama": "ADE NASIR",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1188,7 +1188,7 @@
     "photo_filename": "320623030139.png"
   },
   {
-    "sobat_id": "320623030177",
+    "sobat_id": 320623030177,
     "nama": "SYIFA NUR OCTAVIANI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1197,7 +1197,7 @@
     "photo_filename": "320623030177.png"
   },
   {
-    "sobat_id": "320623110196",
+    "sobat_id": 320623110196,
     "nama": "ASTRI SUSANTRI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1206,7 +1206,7 @@
     "photo_filename": "320623110196.png"
   },
   {
-    "sobat_id": "320626050108",
+    "sobat_id": 320626050108,
     "nama": "ULYA LULU ATULHASANAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1215,7 +1215,7 @@
     "photo_filename": "320626050108.png"
   },
   {
-    "sobat_id": "320626050191",
+    "sobat_id": 320626050191,
     "nama": "AI NURMALASARI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1224,7 +1224,7 @@
     "photo_filename": "320626050191.png"
   },
   {
-    "sobat_id": "320626050104",
+    "sobat_id": 320626050104,
     "nama": "DINDA NURUL HUDA",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1233,7 +1233,7 @@
     "photo_filename": "320626050104.png"
   },
   {
-    "sobat_id": "320626050120",
+    "sobat_id": 320626050120,
     "nama": "VINA RAHMAWATI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1242,7 +1242,7 @@
     "photo_filename": "320626050120.png"
   },
   {
-    "sobat_id": "320626050103",
+    "sobat_id": 320626050103,
     "nama": "NINA DARMAYANTI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1251,7 +1251,7 @@
     "photo_filename": "320626050103.png"
   },
   {
-    "sobat_id": "320626050201",
+    "sobat_id": 320626050201,
     "nama": "RAHMA MA'RIPATUSARIPAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1260,7 +1260,7 @@
     "photo_filename": "320626050201.png"
   },
   {
-    "sobat_id": "320622090319",
+    "sobat_id": 320622090319,
     "nama": "DEDE SUPYANUL HAKIM",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1269,7 +1269,7 @@
     "photo_filename": "320622090319.png"
   },
   {
-    "sobat_id": "320626050101",
+    "sobat_id": 320626050101,
     "nama": "RAHMI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1278,7 +1278,7 @@
     "photo_filename": "320626050101.png"
   },
   {
-    "sobat_id": "320623060048",
+    "sobat_id": 320623060048,
     "nama": "DEDE MULYATI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1287,7 +1287,7 @@
     "photo_filename": "320623060048.png"
   },
   {
-    "sobat_id": "320622090283",
+    "sobat_id": 320622090283,
     "nama": "NURUL HUDA",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1296,7 +1296,7 @@
     "photo_filename": "320622090283.png"
   },
   {
-    "sobat_id": "320626050206",
+    "sobat_id": 320626050206,
     "nama": "RILAN MEILANI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1305,7 +1305,7 @@
     "photo_filename": "320626050206.png"
   },
   {
-    "sobat_id": "320622090309",
+    "sobat_id": 320622090309,
     "nama": "NURSALIM",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1314,7 +1314,7 @@
     "photo_filename": "320622090309.png"
   },
   {
-    "sobat_id": "320622090187",
+    "sobat_id": 320622090187,
     "nama": "REZA MUSTAJAB",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1323,7 +1323,7 @@
     "photo_filename": "320622090187.png"
   },
   {
-    "sobat_id": "320622091738",
+    "sobat_id": 320622091738,
     "nama": "AIP SAEPUL MILAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1332,7 +1332,7 @@
     "photo_filename": "320622091738.png"
   },
   {
-    "sobat_id": "320622091753",
+    "sobat_id": 320622091753,
     "nama": "INDRA RAHAYU",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1341,7 +1341,7 @@
     "photo_filename": "320622091753.png"
   },
   {
-    "sobat_id": "320622090260",
+    "sobat_id": 320622090260,
     "nama": "ANWAR SIDIK",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1350,7 +1350,7 @@
     "photo_filename": "320622090260.png"
   },
   {
-    "sobat_id": "320623030354",
+    "sobat_id": 320623030354,
     "nama": "ACEP RIDWAN NURPARID",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1359,7 +1359,7 @@
     "photo_filename": "320623030354.png"
   },
   {
-    "sobat_id": "320623030363",
+    "sobat_id": 320623030363,
     "nama": "ANGGI PURNAMA ALAM",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1368,7 +1368,7 @@
     "photo_filename": "320623030363.png"
   },
   {
-    "sobat_id": "320623110278",
+    "sobat_id": 320623110278,
     "nama": "RISKA EKA TRESNAMI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1377,7 +1377,7 @@
     "photo_filename": "320623110278.png"
   },
   {
-    "sobat_id": "320622010158",
+    "sobat_id": 320622010158,
     "nama": "IWAN NAWAWI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1386,7 +1386,7 @@
     "photo_filename": "320622010158.png"
   },
   {
-    "sobat_id": "320622090657",
+    "sobat_id": 320622090657,
     "nama": "DADAN WIDIANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1395,7 +1395,7 @@
     "photo_filename": "320622090657.png"
   },
   {
-    "sobat_id": "320622090621",
+    "sobat_id": 320622090621,
     "nama": "INDRY ARDIANTI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1404,7 +1404,7 @@
     "photo_filename": "320622090621.png"
   },
   {
-    "sobat_id": "320622090937",
+    "sobat_id": 320622090937,
     "nama": "FERI DEFIANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1413,7 +1413,7 @@
     "photo_filename": "320622090937.png"
   },
   {
-    "sobat_id": "320626050164",
+    "sobat_id": 320626050164,
     "nama": "LINGGA TIANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1422,7 +1422,7 @@
     "photo_filename": "320626050164.png"
   },
   {
-    "sobat_id": "320626050194",
+    "sobat_id": 320626050194,
     "nama": "LINDAWATI SYARIFAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1431,7 +1431,7 @@
     "photo_filename": "320626050194.png"
   },
   {
-    "sobat_id": "320626050600",
+    "sobat_id": 320626050600,
     "nama": "NADI MARDIANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1440,7 +1440,7 @@
     "photo_filename": "320626050600.png"
   },
   {
-    "sobat_id": "320626050836",
+    "sobat_id": 320626050836,
     "nama": "CECEP MIPTAHUDIN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1449,7 +1449,7 @@
     "photo_filename": "320626050836.png"
   },
   {
-    "sobat_id": "320626050596",
+    "sobat_id": 320626050596,
     "nama": "YOGI ASIDIK",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1458,7 +1458,7 @@
     "photo_filename": "320626050596.png"
   },
   {
-    "sobat_id": "320622091744",
+    "sobat_id": 320622091744,
     "nama": "MIA TRIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1467,7 +1467,7 @@
     "photo_filename": "320622091744.png"
   },
   {
-    "sobat_id": "320626050192",
+    "sobat_id": 320626050192,
     "nama": "RINA RESTIANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1476,7 +1476,7 @@
     "photo_filename": "320626050192.png"
   },
   {
-    "sobat_id": "320626050193",
+    "sobat_id": 320626050193,
     "nama": "NENG SILVI FITRIASARI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1485,7 +1485,7 @@
     "photo_filename": "320626050193.png"
   },
   {
-    "sobat_id": "320622100150",
+    "sobat_id": 320622100150,
     "nama": "RIAN TRIANDI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1494,7 +1494,7 @@
     "photo_filename": "320622100150.png"
   },
   {
-    "sobat_id": "320622030015",
+    "sobat_id": 320622030015,
     "nama": "WAHYU TAUFIK RAMDAN HIDAYAT",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1503,7 +1503,7 @@
     "photo_filename": "320622030015.png"
   },
   {
-    "sobat_id": "320622091683",
+    "sobat_id": 320622091683,
     "nama": "NURUL ALAWI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1512,7 +1512,7 @@
     "photo_filename": "320622091683.png"
   },
   {
-    "sobat_id": "320622100115",
+    "sobat_id": 320622100115,
     "nama": "TRISNA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1521,7 +1521,7 @@
     "photo_filename": "320622100115.png"
   },
   {
-    "sobat_id": "320626050306",
+    "sobat_id": 320626050306,
     "nama": "ERNA AGUSTIA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1530,7 +1530,7 @@
     "photo_filename": "320626050306.png"
   },
   {
-    "sobat_id": "320626050611",
+    "sobat_id": 320626050611,
     "nama": "AJI GINANJAR",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1539,7 +1539,7 @@
     "photo_filename": "320626050611.png"
   },
   {
-    "sobat_id": "320626050483",
+    "sobat_id": 320626050483,
     "nama": "ISNA ROSALIA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1548,7 +1548,7 @@
     "photo_filename": "320626050483.png"
   },
   {
-    "sobat_id": "320626050174",
+    "sobat_id": 320626050174,
     "nama": "AI ERNI HERIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1557,7 +1557,7 @@
     "photo_filename": "320626050174.png"
   },
   {
-    "sobat_id": "320622090349",
+    "sobat_id": 320622090349,
     "nama": "SUSI NOPITASARI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1566,7 +1566,7 @@
     "photo_filename": "320622090349.png"
   },
   {
-    "sobat_id": "320622091749",
+    "sobat_id": 320622091749,
     "nama": "SONI RAHMAN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1575,7 +1575,7 @@
     "photo_filename": "320622091749.png"
   },
   {
-    "sobat_id": "320623110421",
+    "sobat_id": 320623110421,
     "nama": "RURUY",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1584,7 +1584,7 @@
     "photo_filename": "320623110421.png"
   },
   {
-    "sobat_id": "320626050349",
+    "sobat_id": 320626050349,
     "nama": "NOVAL NUGRAHA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1593,7 +1593,7 @@
     "photo_filename": "320626050349.png"
   },
   {
-    "sobat_id": "320626050190",
+    "sobat_id": 320626050190,
     "nama": "YEPI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1602,7 +1602,7 @@
     "photo_filename": "320626050190.png"
   },
   {
-    "sobat_id": "320626050189",
+    "sobat_id": 320626050189,
     "nama": "ADE WOWON",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1611,7 +1611,7 @@
     "photo_filename": "320626050189.png"
   },
   {
-    "sobat_id": "320626050175",
+    "sobat_id": 320626050175,
     "nama": "TRISNA RESTIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1620,7 +1620,7 @@
     "photo_filename": "320626050175.png"
   },
   {
-    "sobat_id": "320623060088",
+    "sobat_id": 320623060088,
     "nama": "MICKO H RAMADLAN",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1629,7 +1629,7 @@
     "photo_filename": "320623060088.png"
   },
   {
-    "sobat_id": "320623111055",
+    "sobat_id": 320623111055,
     "nama": "NITA APRIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1638,7 +1638,7 @@
     "photo_filename": "320623111055.png"
   },
   {
-    "sobat_id": "320623110364",
+    "sobat_id": 320623110364,
     "nama": "SITI MARYATI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1647,7 +1647,7 @@
     "photo_filename": "320623110364.png"
   },
   {
-    "sobat_id": "320626050179",
+    "sobat_id": 320626050179,
     "nama": "MUHAMAD INDRI FAHRI PERMANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1656,7 +1656,7 @@
     "photo_filename": "320626050179.png"
   },
   {
-    "sobat_id": "320626050744",
+    "sobat_id": 320626050744,
     "nama": "RIZKYMUHAMMAD KAUTSAR",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1665,7 +1665,7 @@
     "photo_filename": "320626050744.png"
   },
   {
-    "sobat_id": "320626050188",
+    "sobat_id": 320626050188,
     "nama": "SAFIRA MAHARANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1674,7 +1674,7 @@
     "photo_filename": "320626050188.png"
   },
   {
-    "sobat_id": "320626050177",
+    "sobat_id": 320626050177,
     "nama": "ALPAN SENA SEPTIAN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1683,7 +1683,7 @@
     "photo_filename": "320626050177.png"
   },
   {
-    "sobat_id": "320626050520",
+    "sobat_id": 320626050520,
     "nama": "DENA KRISNA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1692,7 +1692,7 @@
     "photo_filename": "320626050520.png"
   },
   {
-    "sobat_id": "320626050599",
+    "sobat_id": 320626050599,
     "nama": "NUGIE BACHTIAR RAMDANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1701,7 +1701,7 @@
     "photo_filename": "320626050599.png"
   },
   {
-    "sobat_id": "320622020134",
+    "sobat_id": 320622020134,
     "nama": "ANI SURYANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1710,7 +1710,7 @@
     "photo_filename": "320622020134.png"
   },
   {
-    "sobat_id": "320622100109",
+    "sobat_id": 320622100109,
     "nama": "HOLIS",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1719,7 +1719,7 @@
     "photo_filename": "320622100109.png"
   },
   {
-    "sobat_id": "320622091612",
+    "sobat_id": 320622091612,
     "nama": "DEVIA MUTIARA RIZKIA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1728,7 +1728,7 @@
     "photo_filename": "320622091612.png"
   },
   {
-    "sobat_id": "320622100111",
+    "sobat_id": 320622100111,
     "nama": "RONI UBAEDILAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1737,7 +1737,7 @@
     "photo_filename": "320622100111.png"
   },
   {
-    "sobat_id": "320622100004",
+    "sobat_id": 320622100004,
     "nama": "YENI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1746,7 +1746,7 @@
     "photo_filename": "320622100004.png"
   },
   {
-    "sobat_id": "320623020002",
+    "sobat_id": 320623020002,
     "nama": "AI ROSA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1755,7 +1755,7 @@
     "photo_filename": "320623020002.png"
   },
   {
-    "sobat_id": "320623030359",
+    "sobat_id": 320623030359,
     "nama": "RENI ANDRIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1764,7 +1764,7 @@
     "photo_filename": "320623030359.png"
   },
   {
-    "sobat_id": "320622091725",
+    "sobat_id": 320622091725,
     "nama": "YEYET TARYATI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1773,7 +1773,7 @@
     "photo_filename": "320622091725.png"
   },
   {
-    "sobat_id": "320626050487",
+    "sobat_id": 320626050487,
     "nama": "PANCA PEBRIANA HIDAYAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1782,7 +1782,7 @@
     "photo_filename": "320626050487.png"
   },
   {
-    "sobat_id": "320626050753",
+    "sobat_id": 320626050753,
     "nama": "ANNISAU SHOLIHAH AL FIQRIYAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1791,7 +1791,7 @@
     "photo_filename": "320626050753.png"
   },
   {
-    "sobat_id": "320623110070",
+    "sobat_id": 320623110070,
     "nama": "MELLY SITI NURJAMILAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1800,7 +1800,7 @@
     "photo_filename": "320623110070.png"
   },
   {
-    "sobat_id": "320626050747",
+    "sobat_id": 320626050747,
     "nama": "CECEP AHMAD HAWASI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1809,7 +1809,7 @@
     "photo_filename": "320626050747.png"
   },
   {
-    "sobat_id": "320622100578",
+    "sobat_id": 320622100578,
     "nama": "ELIYANA RAHAYU",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1818,7 +1818,7 @@
     "photo_filename": "320622100578.png"
   },
   {
-    "sobat_id": "320626050855",
+    "sobat_id": 320626050855,
     "nama": "NURAENI CAHYATI NINGSIH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1827,7 +1827,7 @@
     "photo_filename": "320626050855.png"
   },
   {
-    "sobat_id": "320622090676",
+    "sobat_id": 320622090676,
     "nama": "WULLAN CITRA MUNGGARANI SHELFI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1836,7 +1836,7 @@
     "photo_filename": "320622090676.png"
   },
   {
-    "sobat_id": "320626050006",
+    "sobat_id": 320626050006,
     "nama": "TRISNA JULIANSYAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1845,7 +1845,7 @@
     "photo_filename": "320626050006.png"
   },
   {
-    "sobat_id": "320626050829",
+    "sobat_id": 320626050829,
     "nama": "FADIKANA ANUGRAH AKBAR",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1854,7 +1854,7 @@
     "photo_filename": "320626050829.png"
   },
   {
-    "sobat_id": "320622091252",
+    "sobat_id": 320622091252,
     "nama": "RINA NURDEWI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1863,7 +1863,7 @@
     "photo_filename": "320622091252.png"
   },
   {
-    "sobat_id": "320623111013",
+    "sobat_id": 320623111013,
     "nama": "SRI WAHYUNI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1872,7 +1872,7 @@
     "photo_filename": "320623111013.png"
   },
   {
-    "sobat_id": "320626050170",
+    "sobat_id": 320626050170,
     "nama": "DISA FUADIYAH TSALITSAH, S.PD",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1881,7 +1881,7 @@
     "photo_filename": "320626050170.png"
   },
   {
-    "sobat_id": "320626050704",
+    "sobat_id": 320626050704,
     "nama": "AINUN SITI ROHIMAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1890,7 +1890,7 @@
     "photo_filename": "320626050704.png"
   },
   {
-    "sobat_id": "320622091595",
+    "sobat_id": 320622091595,
     "nama": "DEDE WINA",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1899,7 +1899,7 @@
     "photo_filename": "320622091595.png"
   },
   {
-    "sobat_id": "320626050591",
+    "sobat_id": 320626050591,
     "nama": "AHMAD SOBARUDIN",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1908,7 +1908,7 @@
     "photo_filename": "320626050591.png"
   },
   {
-    "sobat_id": "320626050171",
+    "sobat_id": 320626050171,
     "nama": "MALIANA",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1917,7 +1917,7 @@
     "photo_filename": "320626050171.png"
   },
   {
-    "sobat_id": "320626050519",
+    "sobat_id": 320626050519,
     "nama": "MILLATI TAZKIYATUNNAFSI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1926,7 +1926,7 @@
     "photo_filename": "320626050519.png"
   },
   {
-    "sobat_id": "320626050695",
+    "sobat_id": 320626050695,
     "nama": "DEFI SRI WULANDARI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1935,7 +1935,7 @@
     "photo_filename": "320626050695.png"
   },
   {
-    "sobat_id": "320623060090",
+    "sobat_id": 320623060090,
     "nama": "JAJAT SAEPUL BARKAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1944,7 +1944,7 @@
     "photo_filename": "320623060090.png"
   },
   {
-    "sobat_id": "320622091596",
+    "sobat_id": 320622091596,
     "nama": "SINTI ANDRIYANI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1953,7 +1953,7 @@
     "photo_filename": "320622091596.png"
   },
   {
-    "sobat_id": "320626050856",
+    "sobat_id": 320626050856,
     "nama": "EVA AZZAHRA",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1962,7 +1962,7 @@
     "photo_filename": "320626050856.png"
   },
   {
-    "sobat_id": "320626050178",
+    "sobat_id": 320626050178,
     "nama": "HUSNA FARIDAH",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1971,7 +1971,7 @@
     "photo_filename": "320626050178.png"
   },
   {
-    "sobat_id": "320622030008",
+    "sobat_id": 320622030008,
     "nama": "NENI MULYANI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1980,7 +1980,7 @@
     "photo_filename": "320622030008.png"
   },
   {
-    "sobat_id": "320622090861",
+    "sobat_id": 320622090861,
     "nama": "SITI SAUDAH APRIYANI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1989,7 +1989,7 @@
     "photo_filename": "320622090861.png"
   },
   {
-    "sobat_id": "320626050459",
+    "sobat_id": 320626050459,
     "nama": "RIZKI IRAWAN",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -1998,7 +1998,7 @@
     "photo_filename": "320626050459.png"
   },
   {
-    "sobat_id": "320622090854",
+    "sobat_id": 320622090854,
     "nama": "YENI SRI MULYANI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2007,7 +2007,7 @@
     "photo_filename": "320622090854.png"
   },
   {
-    "sobat_id": "320626050367",
+    "sobat_id": 320626050367,
     "nama": "WIDYA DARMAWAN",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2016,7 +2016,7 @@
     "photo_filename": "320626050367.png"
   },
   {
-    "sobat_id": "320623110275",
+    "sobat_id": 320623110275,
     "nama": "TITIH KARTIMAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2025,7 +2025,7 @@
     "photo_filename": "320623110275.png"
   },
   {
-    "sobat_id": "320626050195",
+    "sobat_id": 320626050195,
     "nama": "VINA OKTAVIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2034,7 +2034,7 @@
     "photo_filename": "320626050195.png"
   },
   {
-    "sobat_id": "320626050196",
+    "sobat_id": 320626050196,
     "nama": "AAN DARWATI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2043,7 +2043,7 @@
     "photo_filename": "320626050196.png"
   },
   {
-    "sobat_id": "320626050510",
+    "sobat_id": 320626050510,
     "nama": "ELISA DWIYANTI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2052,7 +2052,7 @@
     "photo_filename": "320626050510.png"
   },
   {
-    "sobat_id": "320626050540",
+    "sobat_id": 320626050540,
     "nama": "ALVIN NURUL YAKIN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2061,7 +2061,7 @@
     "photo_filename": "320626050540.png"
   },
   {
-    "sobat_id": "320626050636",
+    "sobat_id": 320626050636,
     "nama": "IDA ROYANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2070,7 +2070,7 @@
     "photo_filename": "320626050636.png"
   },
   {
-    "sobat_id": "320626050180",
+    "sobat_id": 320626050180,
     "nama": "DEA AULIA MULDIANA PUTRI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2079,7 +2079,7 @@
     "photo_filename": "320626050180.png"
   },
   {
-    "sobat_id": "320626050460",
+    "sobat_id": 320626050460,
     "nama": "DEDE SANI MAHABATILAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2088,7 +2088,7 @@
     "photo_filename": "320626050460.png"
   },
   {
-    "sobat_id": "320626050197",
+    "sobat_id": 320626050197,
     "nama": "NENG SHIFA SAMROTUBILLAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2097,7 +2097,7 @@
     "photo_filename": "320626050197.png"
   },
   {
-    "sobat_id": "320626050187",
+    "sobat_id": 320626050187,
     "nama": "RIRI INDAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2106,7 +2106,7 @@
     "photo_filename": "320626050187.png"
   },
   {
-    "sobat_id": "320626050675",
+    "sobat_id": 320626050675,
     "nama": "ERNA RISNAWATI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2115,7 +2115,7 @@
     "photo_filename": "320626050675.png"
   },
   {
-    "sobat_id": "320626050173",
+    "sobat_id": 320626050173,
     "nama": "AI IDA NURAZIJAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2124,7 +2124,7 @@
     "photo_filename": "320626050173.png"
   },
   {
-    "sobat_id": "320626050660",
+    "sobat_id": 320626050660,
     "nama": "SIDIK MAULANA HIDAYAT",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2133,7 +2133,7 @@
     "photo_filename": "320626050660.png"
   },
   {
-    "sobat_id": "320626050186",
+    "sobat_id": 320626050186,
     "nama": "MELA AMELIA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2142,7 +2142,7 @@
     "photo_filename": "320626050186.png"
   },
   {
-    "sobat_id": "320626050185",
+    "sobat_id": 320626050185,
     "nama": "ESTER CITRA LESTARI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2151,7 +2151,7 @@
     "photo_filename": "320626050185.png"
   },
   {
-    "sobat_id": "320626050184",
+    "sobat_id": 320626050184,
     "nama": "SRI RAHMAWATI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2160,7 +2160,7 @@
     "photo_filename": "320626050184.png"
   },
   {
-    "sobat_id": "320626050882",
+    "sobat_id": 320626050882,
     "nama": "FACHMI AHMAD MAULADI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2169,7 +2169,7 @@
     "photo_filename": "320626050882.png"
   },
   {
-    "sobat_id": "320622100122",
+    "sobat_id": 320622100122,
     "nama": "UUS USEP NURDIN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2178,7 +2178,7 @@
     "photo_filename": "320622100122.png"
   },
   {
-    "sobat_id": "320622100110",
+    "sobat_id": 320622100110,
     "nama": "FELA HILDA NURHUDA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2187,7 +2187,7 @@
     "photo_filename": "320622100110.png"
   },
   {
-    "sobat_id": "320623111052",
+    "sobat_id": 320623111052,
     "nama": "ELI NUGRAHA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2196,7 +2196,7 @@
     "photo_filename": "320623111052.png"
   },
   {
-    "sobat_id": "320626050562",
+    "sobat_id": 320626050562,
     "nama": "DADI ABDUL MUHAIMIN",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2205,7 +2205,7 @@
     "photo_filename": "320626050562.png"
   },
   {
-    "sobat_id": "320626050183",
+    "sobat_id": 320626050183,
     "nama": "YULVIA ISTIKOMAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2214,7 +2214,7 @@
     "photo_filename": "320626050183.png"
   },
   {
-    "sobat_id": "320626050182",
+    "sobat_id": 320626050182,
     "nama": "WINA MUTOHAROH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2223,7 +2223,7 @@
     "photo_filename": "320626050182.png"
   },
   {
-    "sobat_id": "320623111053",
+    "sobat_id": 320623111053,
     "nama": "ASEP ABDUL MUHYI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2232,7 +2232,7 @@
     "photo_filename": "320623111053.png"
   },
   {
-    "sobat_id": "320622090982",
+    "sobat_id": 320622090982,
     "nama": "DENI SUANDANA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2241,7 +2241,7 @@
     "photo_filename": "320622090982.png"
   },
   {
-    "sobat_id": "320622091009",
+    "sobat_id": 320622091009,
     "nama": "IRMAN TAUFIKKUL HIDAYAT",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2250,7 +2250,7 @@
     "photo_filename": "320622091009.png"
   },
   {
-    "sobat_id": "320622091745",
+    "sobat_id": 320622091745,
     "nama": "AHMAD NAWAWI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2259,7 +2259,7 @@
     "photo_filename": "320622091745.png"
   },
   {
-    "sobat_id": "320622100005",
+    "sobat_id": 320622100005,
     "nama": "ADE PRIDWANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2268,7 +2268,7 @@
     "photo_filename": "320622100005.png"
   },
   {
-    "sobat_id": "320623030371",
+    "sobat_id": 320623030371,
     "nama": "AI YULIAWATI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2277,7 +2277,7 @@
     "photo_filename": "320623030371.png"
   },
   {
-    "sobat_id": "320626050374",
+    "sobat_id": 320626050374,
     "nama": "IRPAN NULHAK",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2286,7 +2286,7 @@
     "photo_filename": "320626050374.png"
   },
   {
-    "sobat_id": "320622100114",
+    "sobat_id": 320622100114,
     "nama": "NURASIAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2295,7 +2295,7 @@
     "photo_filename": "320622100114.png"
   },
   {
-    "sobat_id": "320623110979",
+    "sobat_id": 320623110979,
     "nama": "IHAH SOLIHAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2304,7 +2304,7 @@
     "photo_filename": "320623110979.png"
   },
   {
-    "sobat_id": "320626050749",
+    "sobat_id": 320626050749,
     "nama": "RESA SADIAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2313,7 +2313,7 @@
     "photo_filename": "320626050749.png"
   },
   {
-    "sobat_id": "320626050181",
+    "sobat_id": 320626050181,
     "nama": "GISA SILPIANI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2322,7 +2322,7 @@
     "photo_filename": "320626050181.png"
   },
   {
-    "sobat_id": "320626050778",
+    "sobat_id": 320626050778,
     "nama": "INA MARLINA",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2331,7 +2331,7 @@
     "photo_filename": "320626050778.png"
   },
   {
-    "sobat_id": "320626050176",
+    "sobat_id": 320626050176,
     "nama": "ADE PUADAH",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2340,7 +2340,7 @@
     "photo_filename": "320626050176.png"
   },
   {
-    "sobat_id": "320626050719",
+    "sobat_id": 320626050719,
     "nama": "DEDE LARAS PUSPITASARI",
     "kecamatan": "(050) CIKATOMAS",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2349,7 +2349,7 @@
     "photo_filename": "320626050719.png"
   },
   {
-    "sobat_id": "320622091529",
+    "sobat_id": 320622091529,
     "nama": "SITI SOPA SOPIANI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2358,7 +2358,7 @@
     "photo_filename": "320622091529.png"
   },
   {
-    "sobat_id": "320623110432",
+    "sobat_id": 320623110432,
     "nama": "RIDA MADANIAH",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2367,7 +2367,7 @@
     "photo_filename": "320623110432.png"
   },
   {
-    "sobat_id": "320622091528",
+    "sobat_id": 320622091528,
     "nama": "PAHMI NURIJMA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2376,7 +2376,7 @@
     "photo_filename": "320622091528.png"
   },
   {
-    "sobat_id": "320623110161",
+    "sobat_id": 320623110161,
     "nama": "LATIP",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2385,7 +2385,7 @@
     "photo_filename": "320623110161.png"
   },
   {
-    "sobat_id": "320626050783",
+    "sobat_id": 320626050783,
     "nama": "SITI NURASIAH",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2394,7 +2394,7 @@
     "photo_filename": "320626050783.png"
   },
   {
-    "sobat_id": "320626050643",
+    "sobat_id": 320626050643,
     "nama": "PIKRI APANDI HUSNI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2403,7 +2403,7 @@
     "photo_filename": "320626050643.png"
   },
   {
-    "sobat_id": "320623030185",
+    "sobat_id": 320623030185,
     "nama": "SRI RAHMA WATI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2412,7 +2412,7 @@
     "photo_filename": "320623030185.png"
   },
   {
-    "sobat_id": "320626050902",
+    "sobat_id": 320626050902,
     "nama": "NINA NOPIYANA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2421,7 +2421,7 @@
     "photo_filename": "320626050902.png"
   },
   {
-    "sobat_id": "320626050872",
+    "sobat_id": 320626050872,
     "nama": "IMAM AGUNG GUMELAR",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2430,7 +2430,7 @@
     "photo_filename": "320626050872.png"
   },
   {
-    "sobat_id": "320622090543",
+    "sobat_id": 320622090543,
     "nama": "YENI SUPARTINI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2439,7 +2439,7 @@
     "photo_filename": "320622090543.png"
   },
   {
-    "sobat_id": "320622100015",
+    "sobat_id": 320622100015,
     "nama": "DIDIN KAMALUDIN",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2448,7 +2448,7 @@
     "photo_filename": "320622100015.png"
   },
   {
-    "sobat_id": "320622090524",
+    "sobat_id": 320622090524,
     "nama": "DESTI ANGGRAENI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2457,7 +2457,7 @@
     "photo_filename": "320622090524.png"
   },
   {
-    "sobat_id": "320622100014",
+    "sobat_id": 320622100014,
     "nama": "NURHAYANI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2466,7 +2466,7 @@
     "photo_filename": "320622100014.png"
   },
   {
-    "sobat_id": "320622020053",
+    "sobat_id": 320622020053,
     "nama": "SELI LESTARI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2475,7 +2475,7 @@
     "photo_filename": "320622020053.png"
   },
   {
-    "sobat_id": "320623110827",
+    "sobat_id": 320623110827,
     "nama": "WIDIYANA HILLMI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2484,7 +2484,7 @@
     "photo_filename": "320623110827.png"
   },
   {
-    "sobat_id": "320626050705",
+    "sobat_id": 320626050705,
     "nama": "ANJAR WAHYUDI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2493,7 +2493,7 @@
     "photo_filename": "320626050705.png"
   },
   {
-    "sobat_id": "320623110081",
+    "sobat_id": 320623110081,
     "nama": "RINDA ARUM",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2502,7 +2502,7 @@
     "photo_filename": "320623110081.png"
   },
   {
-    "sobat_id": "320626050464",
+    "sobat_id": 320626050464,
     "nama": "NAZILA D ANJANI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2511,7 +2511,7 @@
     "photo_filename": "320626050464.png"
   },
   {
-    "sobat_id": "320622100027",
+    "sobat_id": 320622100027,
     "nama": "SELLI FITRIANI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2520,7 +2520,7 @@
     "photo_filename": "320622100027.png"
   },
   {
-    "sobat_id": "320622100025",
+    "sobat_id": 320622100025,
     "nama": "ISMI IRPIANTI PRATAMI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2529,7 +2529,7 @@
     "photo_filename": "320622100025.png"
   },
   {
-    "sobat_id": "320622090696",
+    "sobat_id": 320622090696,
     "nama": "MUHSIN ABDUL ROZAK",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2538,7 +2538,7 @@
     "photo_filename": "320622090696.png"
   },
   {
-    "sobat_id": "320622090531",
+    "sobat_id": 320622090531,
     "nama": "DEA FAUZI ASTUTI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2547,7 +2547,7 @@
     "photo_filename": "320622090531.png"
   },
   {
-    "sobat_id": "320626050494",
+    "sobat_id": 320626050494,
     "nama": "DEASY SHABILA",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2556,7 +2556,7 @@
     "photo_filename": "320626050494.png"
   },
   {
-    "sobat_id": "320626050849",
+    "sobat_id": 320626050849,
     "nama": "DESTIANA PUTRI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2565,7 +2565,7 @@
     "photo_filename": "320626050849.png"
   },
   {
-    "sobat_id": "320626050398",
+    "sobat_id": 320626050398,
     "nama": "IWAN SURYANA",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2574,7 +2574,7 @@
     "photo_filename": "320626050398.png"
   },
   {
-    "sobat_id": "320622100026",
+    "sobat_id": 320622100026,
     "nama": "HANI IHAH SOLIHAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2583,7 +2583,7 @@
     "photo_filename": "320622100026.png"
   },
   {
-    "sobat_id": "320623110840",
+    "sobat_id": 320623110840,
     "nama": "RAYHAN RAJBANI BURHANUDIN",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2592,7 +2592,7 @@
     "photo_filename": "320623110840.png"
   },
   {
-    "sobat_id": "320623110225",
+    "sobat_id": 320623110225,
     "nama": "HANDAYANI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2601,7 +2601,7 @@
     "photo_filename": "320623110225.png"
   },
   {
-    "sobat_id": "320622030045",
+    "sobat_id": 320622030045,
     "nama": "IKRIMA ZULFA ISTIQOMAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2610,7 +2610,7 @@
     "photo_filename": "320622030045.png"
   },
   {
-    "sobat_id": "320626050535",
+    "sobat_id": 320626050535,
     "nama": "FARHA AMELIA RAHMATILAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2619,7 +2619,7 @@
     "photo_filename": "320626050535.png"
   },
   {
-    "sobat_id": "320622100068",
+    "sobat_id": 320622100068,
     "nama": "AYU SAYIDAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2628,7 +2628,7 @@
     "photo_filename": "320622100068.png"
   },
   {
-    "sobat_id": "320622100017",
+    "sobat_id": 320622100017,
     "nama": "SITI ROHIMAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2637,7 +2637,7 @@
     "photo_filename": "320622100017.png"
   },
   {
-    "sobat_id": "320623110258",
+    "sobat_id": 320623110258,
     "nama": "INDRIA DWI SAPUTRI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2646,7 +2646,7 @@
     "photo_filename": "320623110258.png"
   },
   {
-    "sobat_id": "320622100016",
+    "sobat_id": 320622100016,
     "nama": "ENENG LAHARWATI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2655,7 +2655,7 @@
     "photo_filename": "320622100016.png"
   },
   {
-    "sobat_id": "320626050811",
+    "sobat_id": 320626050811,
     "nama": "RIKA DILA RAHMAN",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2664,7 +2664,7 @@
     "photo_filename": "320626050811.png"
   },
   {
-    "sobat_id": "320622090493",
+    "sobat_id": 320622090493,
     "nama": "RAHMAN FIRMANSYAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2673,7 +2673,7 @@
     "photo_filename": "320622090493.png"
   },
   {
-    "sobat_id": "320622020009",
+    "sobat_id": 320622020009,
     "nama": "YOGI GIAN LUGINA",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2682,7 +2682,7 @@
     "photo_filename": "320622020009.png"
   },
   {
-    "sobat_id": "320623110228",
+    "sobat_id": 320623110228,
     "nama": "NUNUNG APIPAH",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2691,7 +2691,7 @@
     "photo_filename": "320623110228.png"
   },
   {
-    "sobat_id": "320622091140",
+    "sobat_id": 320622091140,
     "nama": "FAHMI MUBAROK",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2700,7 +2700,7 @@
     "photo_filename": "320622091140.png"
   },
   {
-    "sobat_id": "320623110448",
+    "sobat_id": 320623110448,
     "nama": "ABDUL JAJANG NURJAMAN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2709,7 +2709,7 @@
     "photo_filename": "320623110448.png"
   },
   {
-    "sobat_id": "320626050043",
+    "sobat_id": 320626050043,
     "nama": "LIA SRI MULYATI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2718,7 +2718,7 @@
     "photo_filename": "320626050043.png"
   },
   {
-    "sobat_id": "320626050739",
+    "sobat_id": 320626050739,
     "nama": "IDA ARYANTI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2727,7 +2727,7 @@
     "photo_filename": "320626050739.png"
   },
   {
-    "sobat_id": "320626050828",
+    "sobat_id": 320626050828,
     "nama": "SUCI RAMDANITA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2736,7 +2736,7 @@
     "photo_filename": "320626050828.png"
   },
   {
-    "sobat_id": "320626050807",
+    "sobat_id": 320626050807,
     "nama": "SOECI DWI ALYANTI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2745,7 +2745,7 @@
     "photo_filename": "320626050807.png"
   },
   {
-    "sobat_id": "320623050183",
+    "sobat_id": 320623050183,
     "nama": "KANIA NANDA OKTAVIANI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2754,7 +2754,7 @@
     "photo_filename": "320623050183.png"
   },
   {
-    "sobat_id": "327822110037",
+    "sobat_id": 327822110037,
     "nama": "YOSEP AHMAD MAOSUL",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2763,7 +2763,7 @@
     "photo_filename": "327822110037.png"
   },
   {
-    "sobat_id": "320626050577",
+    "sobat_id": 320626050577,
     "nama": "MUHAMAD NURYAMIN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2772,7 +2772,7 @@
     "photo_filename": "320626050577.png"
   },
   {
-    "sobat_id": "320626050714",
+    "sobat_id": 320626050714,
     "nama": "PERDI PEBRIANSAH",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2781,7 +2781,7 @@
     "photo_filename": "320626050714.png"
   },
   {
-    "sobat_id": "320626050337",
+    "sobat_id": 320626050337,
     "nama": "IMAN MUNAJAT",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2790,7 +2790,7 @@
     "photo_filename": "320626050337.png"
   },
   {
-    "sobat_id": "320622100671",
+    "sobat_id": 320622100671,
     "nama": "EGI ABDUL GANI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2799,7 +2799,7 @@
     "photo_filename": "320622100671.png"
   },
   {
-    "sobat_id": "320623030302",
+    "sobat_id": 320623030302,
     "nama": "USEP RAHAYU",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2808,7 +2808,7 @@
     "photo_filename": "320623030302.png"
   },
   {
-    "sobat_id": "320622100426",
+    "sobat_id": 320622100426,
     "nama": "CECEP ABDUL HAY",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2817,7 +2817,7 @@
     "photo_filename": "320622100426.png"
   },
   {
-    "sobat_id": "320626050007",
+    "sobat_id": 320626050007,
     "nama": "TITA WAHYUNI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2826,7 +2826,7 @@
     "photo_filename": "320626050007.png"
   },
   {
-    "sobat_id": "320622100328",
+    "sobat_id": 320622100328,
     "nama": "WAWAN SETIAWAN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2835,7 +2835,7 @@
     "photo_filename": "320622100328.png"
   },
   {
-    "sobat_id": "320626050845",
+    "sobat_id": 320626050845,
     "nama": "MUHAMAD ZAINAL MUTTAQIN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2844,7 +2844,7 @@
     "photo_filename": "320626050845.png"
   },
   {
-    "sobat_id": "320622100419",
+    "sobat_id": 320622100419,
     "nama": "BUDI RAHMAT",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2853,7 +2853,7 @@
     "photo_filename": "320622100419.png"
   },
   {
-    "sobat_id": "320622091537",
+    "sobat_id": 320622091537,
     "nama": "INEU ANGGRAENI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2862,7 +2862,7 @@
     "photo_filename": "320622091537.png"
   },
   {
-    "sobat_id": "320626050244",
+    "sobat_id": 320626050244,
     "nama": "ITA JUWITA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2871,7 +2871,7 @@
     "photo_filename": "320626050244.png"
   },
   {
-    "sobat_id": "320626050852",
+    "sobat_id": 320626050852,
     "nama": "MIRA MARSELINA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2880,7 +2880,7 @@
     "photo_filename": "320626050852.png"
   },
   {
-    "sobat_id": "320622091478",
+    "sobat_id": 320622091478,
     "nama": "TRIS ARIDA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2889,7 +2889,7 @@
     "photo_filename": "320622091478.png"
   },
   {
-    "sobat_id": "320622091509",
+    "sobat_id": 320622091509,
     "nama": "MEGA YUSPITA",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2898,7 +2898,7 @@
     "photo_filename": "320622091509.png"
   },
   {
-    "sobat_id": "320622091518",
+    "sobat_id": 320622091518,
     "nama": "NUR HENDI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2907,7 +2907,7 @@
     "photo_filename": "320622091518.png"
   },
   {
-    "sobat_id": "320622091508",
+    "sobat_id": 320622091508,
     "nama": "ASEP KUSMANA HERDIAN",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2916,7 +2916,7 @@
     "photo_filename": "320622091508.png"
   },
   {
-    "sobat_id": "320626050245",
+    "sobat_id": 320626050245,
     "nama": "LENI NUR'AENI",
     "kecamatan": "(061) PARUNGPONTENG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2925,7 +2925,7 @@
     "photo_filename": "320626050245.png"
   },
   {
-    "sobat_id": "320626050416",
+    "sobat_id": 320626050416,
     "nama": "YOGI JULLIAN RIEZQI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2934,7 +2934,7 @@
     "photo_filename": "320626050416.png"
   },
   {
-    "sobat_id": "320622100037",
+    "sobat_id": 320622100037,
     "nama": "TANTI SUSILAWATI",
     "kecamatan": "(240) RAJAPOLAH",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2943,7 +2943,7 @@
     "photo_filename": "320622100037.png"
   },
   {
-    "sobat_id": "320623030248",
+    "sobat_id": 320623030248,
     "nama": "YUSRIL ALAMSYAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2952,7 +2952,7 @@
     "photo_filename": "320623030248.png"
   },
   {
-    "sobat_id": "320622010111",
+    "sobat_id": 320622010111,
     "nama": "ADE IMRON SANUSI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2961,7 +2961,7 @@
     "photo_filename": "320622010111.png"
   },
   {
-    "sobat_id": "320622091277",
+    "sobat_id": 320622091277,
     "nama": "RIZAL JALALUDIN",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2970,7 +2970,7 @@
     "photo_filename": "320622091277.png"
   },
   {
-    "sobat_id": "320622091296",
+    "sobat_id": 320622091296,
     "nama": "UJANG LUTFI ABDILLAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2979,7 +2979,7 @@
     "photo_filename": "320622091296.png"
   },
   {
-    "sobat_id": "320626050762",
+    "sobat_id": 320626050762,
     "nama": "NIDA MUSYARROPAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2988,7 +2988,7 @@
     "photo_filename": "320626050762.png"
   },
   {
-    "sobat_id": "320621100078",
+    "sobat_id": 320621100078,
     "nama": "IRMAYANI ROSMIATI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -2997,7 +2997,7 @@
     "photo_filename": "320621100078.png"
   },
   {
-    "sobat_id": "320623030217",
+    "sobat_id": 320623030217,
     "nama": "NINING NURSILAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3006,7 +3006,7 @@
     "photo_filename": "320623030217.png"
   },
   {
-    "sobat_id": "320623030285",
+    "sobat_id": 320623030285,
     "nama": "ANDRI SAPARUDIN",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3015,7 +3015,7 @@
     "photo_filename": "320623030285.png"
   },
   {
-    "sobat_id": "320623110715",
+    "sobat_id": 320623110715,
     "nama": "LISNA WIDIANTI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3024,7 +3024,7 @@
     "photo_filename": "320623110715.png"
   },
   {
-    "sobat_id": "320623110794",
+    "sobat_id": 320623110794,
     "nama": "ABDUL AZIZ",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3033,7 +3033,7 @@
     "photo_filename": "320623110794.png"
   },
   {
-    "sobat_id": "320623030257",
+    "sobat_id": 320623030257,
     "nama": "IIS ISTIKOMAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3042,7 +3042,7 @@
     "photo_filename": "320623030257.png"
   },
   {
-    "sobat_id": "320626050771",
+    "sobat_id": 320626050771,
     "nama": "TIA ERIANTI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3051,7 +3051,7 @@
     "photo_filename": "320626050771.png"
   },
   {
-    "sobat_id": "320626050580",
+    "sobat_id": 320626050580,
     "nama": "WINDA ARYANI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3060,7 +3060,7 @@
     "photo_filename": "320626050580.png"
   },
   {
-    "sobat_id": "320626050823",
+    "sobat_id": 320626050823,
     "nama": "SRI HENDRIYANTI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3069,7 +3069,7 @@
     "photo_filename": "320626050823.png"
   },
   {
-    "sobat_id": "320622091306",
+    "sobat_id": 320622091306,
     "nama": "SUGIATI NURPRATIWI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3078,7 +3078,7 @@
     "photo_filename": "320622091306.png"
   },
   {
-    "sobat_id": "320623030259",
+    "sobat_id": 320623030259,
     "nama": "YOGI PERMANA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3087,7 +3087,7 @@
     "photo_filename": "320623030259.png"
   },
   {
-    "sobat_id": "320626050431",
+    "sobat_id": 320626050431,
     "nama": "MUHAMMAD YUDA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3096,7 +3096,7 @@
     "photo_filename": "320626050431.png"
   },
   {
-    "sobat_id": "320622020056",
+    "sobat_id": 320622020056,
     "nama": "RIMA RAHMAWATI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3105,7 +3105,7 @@
     "photo_filename": "320622020056.png"
   },
   {
-    "sobat_id": "320622091307",
+    "sobat_id": 320622091307,
     "nama": "JIHAN AURORIA MARYAM",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3114,7 +3114,7 @@
     "photo_filename": "320622091307.png"
   },
   {
-    "sobat_id": "320623110785",
+    "sobat_id": 320623110785,
     "nama": "INTAN KARTIKASARI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3123,7 +3123,7 @@
     "photo_filename": "320623110785.png"
   },
   {
-    "sobat_id": "320626050491",
+    "sobat_id": 320626050491,
     "nama": "RESI RISALAM",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3132,7 +3132,7 @@
     "photo_filename": "320626050491.png"
   },
   {
-    "sobat_id": "320622091320",
+    "sobat_id": 320622091320,
     "nama": "MUHAMMAD NABIL BAIHAQI",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3141,7 +3141,7 @@
     "photo_filename": "320622091320.png"
   },
   {
-    "sobat_id": "320626050529",
+    "sobat_id": 320626050529,
     "nama": "DEWI NURMALA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3150,7 +3150,7 @@
     "photo_filename": "320626050529.png"
   },
   {
-    "sobat_id": "320626050440",
+    "sobat_id": 320626050440,
     "nama": "ASEP SAEPUL MUHAROM",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3159,7 +3159,7 @@
     "photo_filename": "320626050440.png"
   },
   {
-    "sobat_id": "320622100690",
+    "sobat_id": 320622100690,
     "nama": "NANDANG MAULANA",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3168,7 +3168,7 @@
     "photo_filename": "320622100690.png"
   },
   {
-    "sobat_id": "320622091288",
+    "sobat_id": 320622091288,
     "nama": "NURHIDAYATTULAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3177,7 +3177,7 @@
     "photo_filename": "320622091288.png"
   },
   {
-    "sobat_id": "320622091346",
+    "sobat_id": 320622091346,
     "nama": "DENI RIDWAN",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3186,7 +3186,7 @@
     "photo_filename": "320622091346.png"
   },
   {
-    "sobat_id": "320622091364",
+    "sobat_id": 320622091364,
     "nama": "DADAR KURNIAWAN",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3195,7 +3195,7 @@
     "photo_filename": "320622091364.png"
   },
   {
-    "sobat_id": "320626050293",
+    "sobat_id": 320626050293,
     "nama": "NENG UMDAH HOLIFAH",
     "kecamatan": "(161) GUNUNGTANJUNG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3204,7 +3204,7 @@
     "photo_filename": "320626050293.png"
   },
   {
-    "sobat_id": "320626050167",
+    "sobat_id": 320626050167,
     "nama": "WAHYU YUDIANA",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3213,7 +3213,7 @@
     "photo_filename": "320626050167.png"
   },
   {
-    "sobat_id": "320626050199",
+    "sobat_id": 320626050199,
     "nama": "HASYIM AS'ARI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3222,7 +3222,7 @@
     "photo_filename": "320626050199.png"
   },
   {
-    "sobat_id": "320626050200",
+    "sobat_id": 320626050200,
     "nama": "SEHABUDIN IDRUS",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3231,7 +3231,7 @@
     "photo_filename": "320626050200.png"
   },
   {
-    "sobat_id": "320622090328",
+    "sobat_id": 320622090328,
     "nama": "DEWI NURMALASARI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3240,7 +3240,7 @@
     "photo_filename": "320622090328.png"
   },
   {
-    "sobat_id": "320623040072",
+    "sobat_id": 320623040072,
     "nama": "ROSADI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3249,7 +3249,7 @@
     "photo_filename": "320623040072.png"
   },
   {
-    "sobat_id": "320622030061",
+    "sobat_id": 320622030061,
     "nama": "DANI HAMDANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3258,7 +3258,7 @@
     "photo_filename": "320622030061.png"
   },
   {
-    "sobat_id": "320621100009",
+    "sobat_id": 320621100009,
     "nama": "IRPAN D YANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3267,7 +3267,7 @@
     "photo_filename": "320621100009.png"
   },
   {
-    "sobat_id": "320622020029",
+    "sobat_id": 320622020029,
     "nama": "ASEP HIDAYAT",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3276,7 +3276,7 @@
     "photo_filename": "320622020029.png"
   },
   {
-    "sobat_id": "320622020023",
+    "sobat_id": 320622020023,
     "nama": "ALFIN NAJIB YONGGARA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3285,7 +3285,7 @@
     "photo_filename": "320622020023.png"
   },
   {
-    "sobat_id": "320622030053",
+    "sobat_id": 320622030053,
     "nama": "MIFTAH HASAN",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3294,7 +3294,7 @@
     "photo_filename": "320622030053.png"
   },
   {
-    "sobat_id": "320622030060",
+    "sobat_id": 320622030060,
     "nama": "WIDIANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3303,7 +3303,7 @@
     "photo_filename": "320622030060.png"
   },
   {
-    "sobat_id": "320622090471",
+    "sobat_id": 320622090471,
     "nama": "HARDIAN AHMAD ABDUL WASI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3312,7 +3312,7 @@
     "photo_filename": "320622090471.png"
   },
   {
-    "sobat_id": "320626050203",
+    "sobat_id": 320626050203,
     "nama": "ARIP RAHMAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3321,7 +3321,7 @@
     "photo_filename": "320626050203.png"
   },
   {
-    "sobat_id": "320626050694",
+    "sobat_id": 320626050694,
     "nama": "RIZAL NURAHMAN SUHENDAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3330,7 +3330,7 @@
     "photo_filename": "320626050694.png"
   },
   {
-    "sobat_id": "320622090761",
+    "sobat_id": 320622090761,
     "nama": "DONI SETIAWAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3339,7 +3339,7 @@
     "photo_filename": "320622090761.png"
   },
   {
-    "sobat_id": "320626050205",
+    "sobat_id": 320626050205,
     "nama": "MUHAMAD ROHMAT S",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3348,7 +3348,7 @@
     "photo_filename": "320626050205.png"
   },
   {
-    "sobat_id": "320626050207",
+    "sobat_id": 320626050207,
     "nama": "RELY HAJMI MULDANI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3357,7 +3357,7 @@
     "photo_filename": "320626050207.png"
   },
   {
-    "sobat_id": "320622091724",
+    "sobat_id": 320622091724,
     "nama": "NOVI ALAWIYAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3366,7 +3366,7 @@
     "photo_filename": "320622091724.png"
   },
   {
-    "sobat_id": "320622100209",
+    "sobat_id": 320622100209,
     "nama": "DIDAH SYAIDAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3375,7 +3375,7 @@
     "photo_filename": "320622100209.png"
   },
   {
-    "sobat_id": "320622100239",
+    "sobat_id": 320622100239,
     "nama": "MUHAMAD FAHRUNAJAT",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3384,7 +3384,7 @@
     "photo_filename": "320622100239.png"
   },
   {
-    "sobat_id": "320626050666",
+    "sobat_id": 320626050666,
     "nama": "DWIKI RAMDANI AMD",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3393,7 +3393,7 @@
     "photo_filename": "320626050666.png"
   },
   {
-    "sobat_id": "320626050202",
+    "sobat_id": 320626050202,
     "nama": "LIJA MAOLIDA",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3402,7 +3402,7 @@
     "photo_filename": "320626050202.png"
   },
   {
-    "sobat_id": "320622090644",
+    "sobat_id": 320622090644,
     "nama": "QITPI ADIANA RAHMAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3411,7 +3411,7 @@
     "photo_filename": "320622090644.png"
   },
   {
-    "sobat_id": "320622020065",
+    "sobat_id": 320622020065,
     "nama": "NANDIKA NURHIDAYATULOH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3420,7 +3420,7 @@
     "photo_filename": "320622020065.png"
   },
   {
-    "sobat_id": "320626050765",
+    "sobat_id": 320626050765,
     "nama": "DEDE RISNA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3429,7 +3429,7 @@
     "photo_filename": "320626050765.png"
   },
   {
-    "sobat_id": "320622100361",
+    "sobat_id": 320622100361,
     "nama": "RIZAL ABDUL AZIZ",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3438,7 +3438,7 @@
     "photo_filename": "320622100361.png"
   },
   {
-    "sobat_id": "320622100597",
+    "sobat_id": 320622100597,
     "nama": "YUSUF DAROJATUN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3447,7 +3447,7 @@
     "photo_filename": "320622100597.png"
   },
   {
-    "sobat_id": "320622020100",
+    "sobat_id": 320622020100,
     "nama": "ISA ISKANDAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3456,7 +3456,7 @@
     "photo_filename": "320622020100.png"
   },
   {
-    "sobat_id": "320626050914",
+    "sobat_id": 320626050914,
     "nama": "ATUS NURDIANSYAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3465,7 +3465,7 @@
     "photo_filename": "320626050914.png"
   },
   {
-    "sobat_id": "320626050853",
+    "sobat_id": 320626050853,
     "nama": "RAMDHAN ABDILLAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3474,7 +3474,7 @@
     "photo_filename": "320626050853.png"
   },
   {
-    "sobat_id": "320622090157",
+    "sobat_id": 320622090157,
     "nama": "SANI NURAISAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3483,7 +3483,7 @@
     "photo_filename": "320622090157.png"
   },
   {
-    "sobat_id": "320622090392",
+    "sobat_id": 320622090392,
     "nama": "RIZAL SAMSUL MAARIP",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3492,7 +3492,7 @@
     "photo_filename": "320622090392.png"
   },
   {
-    "sobat_id": "320626050100",
+    "sobat_id": 320626050100,
     "nama": "MELLISA KOESNIAWATI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3501,7 +3501,7 @@
     "photo_filename": "320626050100.png"
   },
   {
-    "sobat_id": "320626050105",
+    "sobat_id": 320626050105,
     "nama": "NURAENI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3510,7 +3510,7 @@
     "photo_filename": "320626050105.png"
   },
   {
-    "sobat_id": "320623060061",
+    "sobat_id": 320623060061,
     "nama": "MUHAMMAD ARDIANSYAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3519,7 +3519,7 @@
     "photo_filename": "320623060061.png"
   },
   {
-    "sobat_id": "320626050204",
+    "sobat_id": 320626050204,
     "nama": "RANI APRIANTI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3528,7 +3528,7 @@
     "photo_filename": "320626050204.png"
   },
   {
-    "sobat_id": "320626050208",
+    "sobat_id": 320626050208,
     "nama": "TONI HERMAWAN",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3537,7 +3537,7 @@
     "photo_filename": "320626050208.png"
   },
   {
-    "sobat_id": "320623030304",
+    "sobat_id": 320623030304,
     "nama": "ELIN HERLINA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3546,7 +3546,7 @@
     "photo_filename": "320623030304.png"
   },
   {
-    "sobat_id": "320622020124",
+    "sobat_id": 320622020124,
     "nama": "MAMAD AGUS WAHID",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3555,7 +3555,7 @@
     "photo_filename": "320622020124.png"
   },
   {
-    "sobat_id": "320623030322",
+    "sobat_id": 320623030322,
     "nama": "RIDWAN",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3564,7 +3564,7 @@
     "photo_filename": "320623030322.png"
   },
   {
-    "sobat_id": "320622090975",
+    "sobat_id": 320622090975,
     "nama": "DINNI FITRIANY",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3573,7 +3573,7 @@
     "photo_filename": "320622090975.png"
   },
   {
-    "sobat_id": "320623060067",
+    "sobat_id": 320623060067,
     "nama": "SENI RAHMAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3582,7 +3582,7 @@
     "photo_filename": "320623060067.png"
   },
   {
-    "sobat_id": "320623030293",
+    "sobat_id": 320623030293,
     "nama": "LITANAYA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3591,7 +3591,7 @@
     "photo_filename": "320623030293.png"
   },
   {
-    "sobat_id": "320626050252",
+    "sobat_id": 320626050252,
     "nama": "YOPI WILIYANA SASMITA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3600,7 +3600,7 @@
     "photo_filename": "320626050252.png"
   },
   {
-    "sobat_id": "320623030288",
+    "sobat_id": 320623030288,
     "nama": "RIZAL PIRDAUS",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3609,7 +3609,7 @@
     "photo_filename": "320623030288.png"
   },
   {
-    "sobat_id": "320626050693",
+    "sobat_id": 320626050693,
     "nama": "IRMA NURDINI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3618,7 +3618,7 @@
     "photo_filename": "320626050693.png"
   },
   {
-    "sobat_id": "320622091315",
+    "sobat_id": 320622091315,
     "nama": "ABDUL JABAR",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3627,7 +3627,7 @@
     "photo_filename": "320622091315.png"
   },
   {
-    "sobat_id": "320626050775",
+    "sobat_id": 320626050775,
     "nama": "ALYA WINARA SETYAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3636,7 +3636,7 @@
     "photo_filename": "320626050775.png"
   },
   {
-    "sobat_id": "320622090122",
+    "sobat_id": 320622090122,
     "nama": "NURHALIMAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3645,7 +3645,7 @@
     "photo_filename": "320622090122.png"
   },
   {
-    "sobat_id": "320622090852",
+    "sobat_id": 320622090852,
     "nama": "YOFI MARIA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3654,7 +3654,7 @@
     "photo_filename": "320622090852.png"
   },
   {
-    "sobat_id": "320623030196",
+    "sobat_id": 320623030196,
     "nama": "AINA NISHPI SAADAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3663,7 +3663,7 @@
     "photo_filename": "320623030196.png"
   },
   {
-    "sobat_id": "320622090804",
+    "sobat_id": 320622090804,
     "nama": "ASEP HUDIANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3672,7 +3672,7 @@
     "photo_filename": "320622090804.png"
   },
   {
-    "sobat_id": "320622090664",
+    "sobat_id": 320622090664,
     "nama": "JENAL MUSTOPA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3681,7 +3681,7 @@
     "photo_filename": "320622090664.png"
   },
   {
-    "sobat_id": "320622091462",
+    "sobat_id": 320622091462,
     "nama": "FARHAN NUR FAUZY",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3690,7 +3690,7 @@
     "photo_filename": "320622091462.png"
   },
   {
-    "sobat_id": "320622090907",
+    "sobat_id": 320622090907,
     "nama": "AYI HARIMAN",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3699,7 +3699,7 @@
     "photo_filename": "320622090907.png"
   },
   {
-    "sobat_id": "320626050439",
+    "sobat_id": 320626050439,
     "nama": "UCU MUPLIHAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3708,7 +3708,7 @@
     "photo_filename": "320626050439.png"
   },
   {
-    "sobat_id": "320626050532",
+    "sobat_id": 320626050532,
     "nama": "DELIANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3717,7 +3717,7 @@
     "photo_filename": "320626050532.png"
   },
   {
-    "sobat_id": "320626050072",
+    "sobat_id": 320626050072,
     "nama": "YAYAT HIDAYAT.,SP",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3726,7 +3726,7 @@
     "photo_filename": "320626050072.png"
   },
   {
-    "sobat_id": "320622091106",
+    "sobat_id": 320622091106,
     "nama": "AYU MEGA PERMATA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3735,7 +3735,7 @@
     "photo_filename": "320622091106.png"
   },
   {
-    "sobat_id": "320626050698",
+    "sobat_id": 320626050698,
     "nama": "ANDI PERMANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3744,7 +3744,7 @@
     "photo_filename": "320626050698.png"
   },
   {
-    "sobat_id": "320622091232",
+    "sobat_id": 320622091232,
     "nama": "SILVI SHINTA NURMAYANTI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3753,7 +3753,7 @@
     "photo_filename": "320622091232.png"
   },
   {
-    "sobat_id": "320623111065",
+    "sobat_id": 320623111065,
     "nama": "ROBI PERMANA PUTRA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3762,7 +3762,7 @@
     "photo_filename": "320623111065.png"
   },
   {
-    "sobat_id": "320626050254",
+    "sobat_id": 320626050254,
     "nama": "WIKI AHMAD FAUZIA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3771,7 +3771,7 @@
     "photo_filename": "320626050254.png"
   },
   {
-    "sobat_id": "320622030064",
+    "sobat_id": 320622030064,
     "nama": "ACENG YUSUP",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3780,7 +3780,7 @@
     "photo_filename": "320622030064.png"
   },
   {
-    "sobat_id": "320626050537",
+    "sobat_id": 320626050537,
     "nama": "IRMAN FIRMANSYAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3789,7 +3789,7 @@
     "photo_filename": "320626050537.png"
   },
   {
-    "sobat_id": "320623111033",
+    "sobat_id": 320623111033,
     "nama": "GINA HILMA FAUZIAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3798,7 +3798,7 @@
     "photo_filename": "320623111033.png"
   },
   {
-    "sobat_id": "320622090986",
+    "sobat_id": 320622090986,
     "nama": "AI RESTI NURHAKIKI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3807,7 +3807,7 @@
     "photo_filename": "320622090986.png"
   },
   {
-    "sobat_id": "320626050784",
+    "sobat_id": 320626050784,
     "nama": "HANA HANIPAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3816,7 +3816,7 @@
     "photo_filename": "320626050784.png"
   },
   {
-    "sobat_id": "320626050296",
+    "sobat_id": 320626050296,
     "nama": "ABDUL MALIKUL KUDUS",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3825,7 +3825,7 @@
     "photo_filename": "320626050296.png"
   },
   {
-    "sobat_id": "320626050454",
+    "sobat_id": 320626050454,
     "nama": "BUNGA SUPYANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3834,7 +3834,7 @@
     "photo_filename": "320626050454.png"
   },
   {
-    "sobat_id": "320623030276",
+    "sobat_id": 320623030276,
     "nama": "ENUNG NURHAYATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3843,7 +3843,7 @@
     "photo_filename": "320623030276.png"
   },
   {
-    "sobat_id": "320626050485",
+    "sobat_id": 320626050485,
     "nama": "SRI AYU EKA SOPYANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3852,7 +3852,7 @@
     "photo_filename": "320626050485.png"
   },
   {
-    "sobat_id": "320626050743",
+    "sobat_id": 320626050743,
     "nama": "SRI ROHMAYATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3861,7 +3861,7 @@
     "photo_filename": "320626050743.png"
   },
   {
-    "sobat_id": "320626050429",
+    "sobat_id": 320626050429,
     "nama": "ENUNG KOMALASARI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3870,7 +3870,7 @@
     "photo_filename": "320626050429.png"
   },
   {
-    "sobat_id": "320626050579",
+    "sobat_id": 320626050579,
     "nama": "AZZAHRA SIFFA RAHMA PUTRI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3879,7 +3879,7 @@
     "photo_filename": "320626050579.png"
   },
   {
-    "sobat_id": "320626050727",
+    "sobat_id": 320626050727,
     "nama": "MUHAMMAD FAUZAN",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3888,7 +3888,7 @@
     "photo_filename": "320626050727.png"
   },
   {
-    "sobat_id": "320622090934",
+    "sobat_id": 320622090934,
     "nama": "ABDUL AZIZ",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3897,7 +3897,7 @@
     "photo_filename": "320622090934.png"
   },
   {
-    "sobat_id": "320626050285",
+    "sobat_id": 320626050285,
     "nama": "DINA ANCI RAHAYU",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3906,7 +3906,7 @@
     "photo_filename": "320626050285.png"
   },
   {
-    "sobat_id": "320622091093",
+    "sobat_id": 320622091093,
     "nama": "DJADJAT FADILLAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3915,7 +3915,7 @@
     "photo_filename": "320622091093.png"
   },
   {
-    "sobat_id": "320623060055",
+    "sobat_id": 320623060055,
     "nama": "RAHMA MAULIDA ANJALITA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3924,7 +3924,7 @@
     "photo_filename": "320623060055.png"
   },
   {
-    "sobat_id": "320623030228",
+    "sobat_id": 320623030228,
     "nama": "REVA YUSTIA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3933,7 +3933,7 @@
     "photo_filename": "320623030228.png"
   },
   {
-    "sobat_id": "320623111068",
+    "sobat_id": 320623111068,
     "nama": "PIPIH SOPIAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3942,7 +3942,7 @@
     "photo_filename": "320623111068.png"
   },
   {
-    "sobat_id": "320623030290",
+    "sobat_id": 320623030290,
     "nama": "DINDIN SUPRIADI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3951,7 +3951,7 @@
     "photo_filename": "320623030290.png"
   },
   {
-    "sobat_id": "320626050585",
+    "sobat_id": 320626050585,
     "nama": "SENO TRESNA GALANG PRADANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3960,7 +3960,7 @@
     "photo_filename": "320626050585.png"
   },
   {
-    "sobat_id": "320626050788",
+    "sobat_id": 320626050788,
     "nama": "LIA HERIAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3969,7 +3969,7 @@
     "photo_filename": "320626050788.png"
   },
   {
-    "sobat_id": "320622090869",
+    "sobat_id": 320622090869,
     "nama": "ERLANGGA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3978,7 +3978,7 @@
     "photo_filename": "320622090869.png"
   },
   {
-    "sobat_id": "320621100008",
+    "sobat_id": 320621100008,
     "nama": "RUDI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3987,7 +3987,7 @@
     "photo_filename": "320621100008.png"
   },
   {
-    "sobat_id": "320623030279",
+    "sobat_id": 320623030279,
     "nama": "IMAS ROHAYATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -3996,7 +3996,7 @@
     "photo_filename": "320623030279.png"
   },
   {
-    "sobat_id": "320622090953",
+    "sobat_id": 320622090953,
     "nama": "ADE PUTRA ARIYANTO",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4005,7 +4005,7 @@
     "photo_filename": "320622090953.png"
   },
   {
-    "sobat_id": "320622090890",
+    "sobat_id": 320622090890,
     "nama": "LINA TARLIAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4014,7 +4014,7 @@
     "photo_filename": "320622090890.png"
   },
   {
-    "sobat_id": "320623030323",
+    "sobat_id": 320623030323,
     "nama": "TETI SETIAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4023,7 +4023,7 @@
     "photo_filename": "320623030323.png"
   },
   {
-    "sobat_id": "320623030287",
+    "sobat_id": 320623030287,
     "nama": "WIWIN KURNIATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4032,7 +4032,7 @@
     "photo_filename": "320623030287.png"
   },
   {
-    "sobat_id": "320623030297",
+    "sobat_id": 320623030297,
     "nama": "FIRDA WIDIA SARI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4041,7 +4041,7 @@
     "photo_filename": "320623030297.png"
   },
   {
-    "sobat_id": "320622100325",
+    "sobat_id": 320622100325,
     "nama": "AIRIZKILAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4050,7 +4050,7 @@
     "photo_filename": "320622100325.png"
   },
   {
-    "sobat_id": "320622090891",
+    "sobat_id": 320622090891,
     "nama": "AIP SUPRIADI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4059,7 +4059,7 @@
     "photo_filename": "320622090891.png"
   },
   {
-    "sobat_id": "320626050070",
+    "sobat_id": 320626050070,
     "nama": "JUNAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4068,7 +4068,7 @@
     "photo_filename": "320626050070.png"
   },
   {
-    "sobat_id": "320623030020",
+    "sobat_id": 320623030020,
     "nama": "SRI INDIRAHAYU",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4077,7 +4077,7 @@
     "photo_filename": "320623030020.png"
   },
   {
-    "sobat_id": "320626050563",
+    "sobat_id": 320626050563,
     "nama": "RINA AGIS",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4086,7 +4086,7 @@
     "photo_filename": "320626050563.png"
   },
   {
-    "sobat_id": "320626050497",
+    "sobat_id": 320626050497,
     "nama": "IRA BELASAPIRA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4095,7 +4095,7 @@
     "photo_filename": "320626050497.png"
   },
   {
-    "sobat_id": "320626050286",
+    "sobat_id": 320626050286,
     "nama": "SOFIATUL SAADAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4104,7 +4104,7 @@
     "photo_filename": "320626050286.png"
   },
   {
-    "sobat_id": "320626050492",
+    "sobat_id": 320626050492,
     "nama": "RESI RESTINA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4113,7 +4113,7 @@
     "photo_filename": "320626050492.png"
   },
   {
-    "sobat_id": "320623111061",
+    "sobat_id": 320623111061,
     "nama": "RISKA AGUSTINA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4122,7 +4122,7 @@
     "photo_filename": "320623111061.png"
   },
   {
-    "sobat_id": "320626050716",
+    "sobat_id": 320626050716,
     "nama": "ELA SITI JULAEHA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4131,7 +4131,7 @@
     "photo_filename": "320626050716.png"
   },
   {
-    "sobat_id": "320622090917",
+    "sobat_id": 320622090917,
     "nama": "IRMA SRI UTAMI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4140,7 +4140,7 @@
     "photo_filename": "320622090917.png"
   },
   {
-    "sobat_id": "320622090927",
+    "sobat_id": 320622090927,
     "nama": "HENI SURYATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4149,7 +4149,7 @@
     "photo_filename": "320622090927.png"
   },
   {
-    "sobat_id": "320623030001",
+    "sobat_id": 320623030001,
     "nama": "YOPANDA ADITYA PRADINA, S.P",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4158,7 +4158,7 @@
     "photo_filename": "320623030001.png"
   },
   {
-    "sobat_id": "320622090980",
+    "sobat_id": 320622090980,
     "nama": "FITRIANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4167,7 +4167,7 @@
     "photo_filename": "320622090980.png"
   },
   {
-    "sobat_id": "320626050876",
+    "sobat_id": 320626050876,
     "nama": "JOVA GIOVANNY ADELIA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4176,7 +4176,7 @@
     "photo_filename": "320626050876.png"
   },
   {
-    "sobat_id": "320626050635",
+    "sobat_id": 320626050635,
     "nama": "ALFIN EMUTANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4185,7 +4185,7 @@
     "photo_filename": "320626050635.png"
   },
   {
-    "sobat_id": "320626050357",
+    "sobat_id": 320626050357,
     "nama": "DIKI HERDIANA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4194,7 +4194,7 @@
     "photo_filename": "320626050357.png"
   },
   {
-    "sobat_id": "320626050655",
+    "sobat_id": 320626050655,
     "nama": "AYUN EKAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4203,7 +4203,7 @@
     "photo_filename": "320626050655.png"
   },
   {
-    "sobat_id": "320626050019",
+    "sobat_id": 320626050019,
     "nama": "FAHMI ABDUL HALIM",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4212,7 +4212,7 @@
     "photo_filename": "320626050019.png"
   },
   {
-    "sobat_id": "320626050648",
+    "sobat_id": 320626050648,
     "nama": "ERWINA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4221,7 +4221,7 @@
     "photo_filename": "320626050648.png"
   },
   {
-    "sobat_id": "320626050040",
+    "sobat_id": 320626050040,
     "nama": "RIKA RIKALAWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4230,7 +4230,7 @@
     "photo_filename": "320626050040.png"
   },
   {
-    "sobat_id": "320622091385",
+    "sobat_id": 320622091385,
     "nama": "RESA RISYANTI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4239,7 +4239,7 @@
     "photo_filename": "320622091385.png"
   },
   {
-    "sobat_id": "320622110022",
+    "sobat_id": 320622110022,
     "nama": "YUNI FAUJIAH",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4248,7 +4248,7 @@
     "photo_filename": "320622110022.png"
   },
   {
-    "sobat_id": "320626050511",
+    "sobat_id": 320626050511,
     "nama": "NADI SUTISNA",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4257,7 +4257,7 @@
     "photo_filename": "320626050511.png"
   },
   {
-    "sobat_id": "320626050764",
+    "sobat_id": 320626050764,
     "nama": "SYAKIRA FAUZIAH PUTRI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4266,7 +4266,7 @@
     "photo_filename": "320626050764.png"
   },
   {
-    "sobat_id": "327822050003",
+    "sobat_id": 327822050003,
     "nama": "WITRI SARASWATI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4275,7 +4275,7 @@
     "photo_filename": "327822050003.png"
   },
   {
-    "sobat_id": "320626050789",
+    "sobat_id": 320626050789,
     "nama": "SENI MULYANI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4284,7 +4284,7 @@
     "photo_filename": "320626050789.png"
   },
   {
-    "sobat_id": "320623110728",
+    "sobat_id": 320623110728,
     "nama": "PITRIANI",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4293,7 +4293,7 @@
     "photo_filename": "320623110728.png"
   },
   {
-    "sobat_id": "320622100119",
+    "sobat_id": 320622100119,
     "nama": "INDRA IRAWAN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4302,7 +4302,7 @@
     "photo_filename": "320622100119.png"
   },
   {
-    "sobat_id": "320626050388",
+    "sobat_id": 320626050388,
     "nama": "EVA YULIANTI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4311,7 +4311,7 @@
     "photo_filename": "320626050388.png"
   },
   {
-    "sobat_id": "320626050428",
+    "sobat_id": 320626050428,
     "nama": "BAYU GILANG JANUAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4320,7 +4320,7 @@
     "photo_filename": "320626050428.png"
   },
   {
-    "sobat_id": "320626050039",
+    "sobat_id": 320626050039,
     "nama": "RYAN ANGGARA PUTRA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4329,7 +4329,7 @@
     "photo_filename": "320626050039.png"
   },
   {
-    "sobat_id": "320622100564",
+    "sobat_id": 320622100564,
     "nama": "RISRIS PRATIWI ILAHI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4338,7 +4338,7 @@
     "photo_filename": "320622100564.png"
   },
   {
-    "sobat_id": "320622100143",
+    "sobat_id": 320622100143,
     "nama": "ANGGA REXA SAGITA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4347,7 +4347,7 @@
     "photo_filename": "320622100143.png"
   },
   {
-    "sobat_id": "320626050406",
+    "sobat_id": 320626050406,
     "nama": "ZEIN FAJAR HIDAYAT",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4356,7 +4356,7 @@
     "photo_filename": "320626050406.png"
   },
   {
-    "sobat_id": "320626050573",
+    "sobat_id": 320626050573,
     "nama": "RIZKI NUGRAHA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4365,7 +4365,7 @@
     "photo_filename": "320626050573.png"
   },
   {
-    "sobat_id": "320626050790",
+    "sobat_id": 320626050790,
     "nama": "SRI SARTIKA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4374,7 +4374,7 @@
     "photo_filename": "320626050790.png"
   },
   {
-    "sobat_id": "320626050379",
+    "sobat_id": 320626050379,
     "nama": "SYIFA FAUZIAH AENI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4383,7 +4383,7 @@
     "photo_filename": "320626050379.png"
   },
   {
-    "sobat_id": "320626050541",
+    "sobat_id": 320626050541,
     "nama": "INDAH AWALIAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4392,7 +4392,7 @@
     "photo_filename": "320626050541.png"
   },
   {
-    "sobat_id": "320622020067",
+    "sobat_id": 320622020067,
     "nama": "GINA HERNAWATI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4401,7 +4401,7 @@
     "photo_filename": "320622020067.png"
   },
   {
-    "sobat_id": "320622100450",
+    "sobat_id": 320622100450,
     "nama": "ERPIN NURHIDAYAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4410,7 +4410,7 @@
     "photo_filename": "320622100450.png"
   },
   {
-    "sobat_id": "320622020066",
+    "sobat_id": 320622020066,
     "nama": "AGUS NANDAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4419,7 +4419,7 @@
     "photo_filename": "320622020066.png"
   },
   {
-    "sobat_id": "320623111074",
+    "sobat_id": 320623111074,
     "nama": "AI EVA SOFAROH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4428,7 +4428,7 @@
     "photo_filename": "320623111074.png"
   },
   {
-    "sobat_id": "320626050561",
+    "sobat_id": 320626050561,
     "nama": "SYIFA AENUN NAJA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4437,7 +4437,7 @@
     "photo_filename": "320626050561.png"
   },
   {
-    "sobat_id": "320626050365",
+    "sobat_id": 320626050365,
     "nama": "DHINI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4446,7 +4446,7 @@
     "photo_filename": "320626050365.png"
   },
   {
-    "sobat_id": "320626050782",
+    "sobat_id": 320626050782,
     "nama": "AYU DWI LESTARI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4455,7 +4455,7 @@
     "photo_filename": "320626050782.png"
   },
   {
-    "sobat_id": "320622100615",
+    "sobat_id": 320622100615,
     "nama": "SRI MULYANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4464,7 +4464,7 @@
     "photo_filename": "320622100615.png"
   },
   {
-    "sobat_id": "320626050434",
+    "sobat_id": 320626050434,
     "nama": "RIFA SALSABILA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4473,7 +4473,7 @@
     "photo_filename": "320626050434.png"
   },
   {
-    "sobat_id": "320626050652",
+    "sobat_id": 320626050652,
     "nama": "AI NADIA HARYANTI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4482,7 +4482,7 @@
     "photo_filename": "320626050652.png"
   },
   {
-    "sobat_id": "320626050756",
+    "sobat_id": 320626050756,
     "nama": "RIZKA AMALIA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4491,7 +4491,7 @@
     "photo_filename": "320626050756.png"
   },
   {
-    "sobat_id": "320626050271",
+    "sobat_id": 320626050271,
     "nama": "FARAH NUR FADILAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4500,7 +4500,7 @@
     "photo_filename": "320626050271.png"
   },
   {
-    "sobat_id": "320622100354",
+    "sobat_id": 320622100354,
     "nama": "RUDIANA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4509,7 +4509,7 @@
     "photo_filename": "320622100354.png"
   },
   {
-    "sobat_id": "320622020071",
+    "sobat_id": 320622020071,
     "nama": "YUDI RISMAYADI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4518,7 +4518,7 @@
     "photo_filename": "320622020071.png"
   },
   {
-    "sobat_id": "320622100543",
+    "sobat_id": 320622100543,
     "nama": "NANANG SARIPUDIN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4527,7 +4527,7 @@
     "photo_filename": "320622100543.png"
   },
   {
-    "sobat_id": "320626050701",
+    "sobat_id": 320626050701,
     "nama": "IIS SOPIAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4536,7 +4536,7 @@
     "photo_filename": "320626050701.png"
   },
   {
-    "sobat_id": "320626050794",
+    "sobat_id": 320626050794,
     "nama": "RISKA SUKMAWATI",
     "kecamatan": "(210) LEUWISARI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4545,7 +4545,7 @@
     "photo_filename": "320626050794.png"
   },
   {
-    "sobat_id": "320626050451",
+    "sobat_id": 320626050451,
     "nama": "ANWAR HALIM",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4554,7 +4554,7 @@
     "photo_filename": "320626050451.png"
   },
   {
-    "sobat_id": "320622091371",
+    "sobat_id": 320622091371,
     "nama": "NURDIN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4563,7 +4563,7 @@
     "photo_filename": "320622091371.png"
   },
   {
-    "sobat_id": "320623030017",
+    "sobat_id": 320623030017,
     "nama": "YUDA BRAHMANTIAR",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4572,7 +4572,7 @@
     "photo_filename": "320623030017.png"
   },
   {
-    "sobat_id": "320623110769",
+    "sobat_id": 320623110769,
     "nama": "DODI IRMAWAN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4581,7 +4581,7 @@
     "photo_filename": "320623110769.png"
   },
   {
-    "sobat_id": "320626050864",
+    "sobat_id": 320626050864,
     "nama": "RISA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4590,7 +4590,7 @@
     "photo_filename": "320626050864.png"
   },
   {
-    "sobat_id": "320626050883",
+    "sobat_id": 320626050883,
     "nama": "ENGKUSWANA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4599,7 +4599,7 @@
     "photo_filename": "320626050883.png"
   },
   {
-    "sobat_id": "320626050806",
+    "sobat_id": 320626050806,
     "nama": "IRWAN SUBARNA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4608,7 +4608,7 @@
     "photo_filename": "320626050806.png"
   },
   {
-    "sobat_id": "320626050333",
+    "sobat_id": 320626050333,
     "nama": "BUDIMAN TORO",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4617,7 +4617,7 @@
     "photo_filename": "320626050333.png"
   },
   {
-    "sobat_id": "320626050604",
+    "sobat_id": 320626050604,
     "nama": "DANIL ARIF RAHMAN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4626,7 +4626,7 @@
     "photo_filename": "320626050604.png"
   },
   {
-    "sobat_id": "320626050383",
+    "sobat_id": 320626050383,
     "nama": "CUCU SRIWAHYUNI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4635,7 +4635,7 @@
     "photo_filename": "320626050383.png"
   },
   {
-    "sobat_id": "320623030065",
+    "sobat_id": 320623030065,
     "nama": "CECEP MULYANA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4644,7 +4644,7 @@
     "photo_filename": "320623030065.png"
   },
   {
-    "sobat_id": "320626050467",
+    "sobat_id": 320626050467,
     "nama": "ANNISA NURBAETI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4653,7 +4653,7 @@
     "photo_filename": "320626050467.png"
   },
   {
-    "sobat_id": "320626050209",
+    "sobat_id": 320626050209,
     "nama": "MUHAMMAD IHSAN ABDILLAH",
     "kecamatan": "(080) BOJONGGAMBIR",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4662,7 +4662,7 @@
     "photo_filename": "320626050209.png"
   },
   {
-    "sobat_id": "320626050812",
+    "sobat_id": 320626050812,
     "nama": "MEY FARIDA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4671,7 +4671,7 @@
     "photo_filename": "320626050812.png"
   },
   {
-    "sobat_id": "320626050887",
+    "sobat_id": 320626050887,
     "nama": "LUTHFI WIJAYA KUSUMAH",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4680,7 +4680,7 @@
     "photo_filename": "320626050887.png"
   },
   {
-    "sobat_id": "320622030042",
+    "sobat_id": 320622030042,
     "nama": "DANI MURDANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4689,7 +4689,7 @@
     "photo_filename": "320622030042.png"
   },
   {
-    "sobat_id": "320626050042",
+    "sobat_id": 320626050042,
     "nama": "DIKI ADIDANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4698,7 +4698,7 @@
     "photo_filename": "320626050042.png"
   },
   {
-    "sobat_id": "320626050878",
+    "sobat_id": 320626050878,
     "nama": "TIO WARDANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4707,7 +4707,7 @@
     "photo_filename": "320626050878.png"
   },
   {
-    "sobat_id": "320626050669",
+    "sobat_id": 320626050669,
     "nama": "ERNA ROYANI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4716,7 +4716,7 @@
     "photo_filename": "320626050669.png"
   },
   {
-    "sobat_id": "320622020070",
+    "sobat_id": 320622020070,
     "nama": "YURINDIS ARIYANDI",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4725,7 +4725,7 @@
     "photo_filename": "320622020070.png"
   },
   {
-    "sobat_id": "320622100146",
+    "sobat_id": 320622100146,
     "nama": "ELIT SANDRA",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4734,7 +4734,7 @@
     "photo_filename": "320622100146.png"
   },
   {
-    "sobat_id": "320622100510",
+    "sobat_id": 320622100510,
     "nama": "ABDUL MATIN",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4743,7 +4743,7 @@
     "photo_filename": "320622100510.png"
   },
   {
-    "sobat_id": "320621100091",
+    "sobat_id": 320621100091,
     "nama": "APEP",
     "kecamatan": "(200) CIGALONTANG",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4752,7 +4752,7 @@
     "photo_filename": "320621100091.png"
   },
   {
-    "sobat_id": "320622090045",
+    "sobat_id": 320622090045,
     "nama": "SELI KARLINA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4761,7 +4761,7 @@
     "photo_filename": "320622090045.png"
   },
   {
-    "sobat_id": "320622020005",
+    "sobat_id": 320622020005,
     "nama": "ELIN MURNIATI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4770,7 +4770,7 @@
     "photo_filename": "320622020005.png"
   },
   {
-    "sobat_id": "320623040097",
+    "sobat_id": 320623040097,
     "nama": "EGA NURMUSTIKA DELIANT",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4779,7 +4779,7 @@
     "photo_filename": "320623040097.png"
   },
   {
-    "sobat_id": "320622030073",
+    "sobat_id": 320622030073,
     "nama": "N.ROHANINGSIH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4788,7 +4788,7 @@
     "photo_filename": "320622030073.png"
   },
   {
-    "sobat_id": "320623060066",
+    "sobat_id": 320623060066,
     "nama": "DILA SRI UTAMI DEWI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4797,7 +4797,7 @@
     "photo_filename": "320623060066.png"
   },
   {
-    "sobat_id": "320622091542",
+    "sobat_id": 320622091542,
     "nama": "MISBAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4806,7 +4806,7 @@
     "photo_filename": "320622091542.png"
   },
   {
-    "sobat_id": "320622090086",
+    "sobat_id": 320622090086,
     "nama": "ASEP DARMAWAN",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4815,7 +4815,7 @@
     "photo_filename": "320622090086.png"
   },
   {
-    "sobat_id": "320622100268",
+    "sobat_id": 320622100268,
     "nama": "EPI ABDUL HANAPI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4824,7 +4824,7 @@
     "photo_filename": "320622100268.png"
   },
   {
-    "sobat_id": "320622090047",
+    "sobat_id": 320622090047,
     "nama": "IIP JENAL ARIPIN",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4833,7 +4833,7 @@
     "photo_filename": "320622090047.png"
   },
   {
-    "sobat_id": "320622100836",
+    "sobat_id": 320622100836,
     "nama": "AI NURBAYA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4842,7 +4842,7 @@
     "photo_filename": "320622100836.png"
   },
   {
-    "sobat_id": "320626050769",
+    "sobat_id": 320626050769,
     "nama": "ASYA UTARI RAHMAWATI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4851,7 +4851,7 @@
     "photo_filename": "320626050769.png"
   },
   {
-    "sobat_id": "320622090039",
+    "sobat_id": 320622090039,
     "nama": "EUIS ROSITA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4860,7 +4860,7 @@
     "photo_filename": "320622090039.png"
   },
   {
-    "sobat_id": "320626050560",
+    "sobat_id": 320626050560,
     "nama": "JAJANG RAHMAT",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4869,7 +4869,7 @@
     "photo_filename": "320626050560.png"
   },
   {
-    "sobat_id": "320622090043",
+    "sobat_id": 320622090043,
     "nama": "TATA KUSUMAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4878,7 +4878,7 @@
     "photo_filename": "320622090043.png"
   },
   {
-    "sobat_id": "320626050586",
+    "sobat_id": 320626050586,
     "nama": "SEPTIAN CAHYO",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4887,7 +4887,7 @@
     "photo_filename": "320626050586.png"
   },
   {
-    "sobat_id": "320622100853",
+    "sobat_id": 320622100853,
     "nama": "JUJUN JUNAEDI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4896,7 +4896,7 @@
     "photo_filename": "320622100853.png"
   },
   {
-    "sobat_id": "320622090134",
+    "sobat_id": 320622090134,
     "nama": "UJANG RAHMAT",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4905,7 +4905,7 @@
     "photo_filename": "320622090134.png"
   },
   {
-    "sobat_id": "320623110805",
+    "sobat_id": 320623110805,
     "nama": "BELLA YULIAWAN BAROKAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4914,7 +4914,7 @@
     "photo_filename": "320623110805.png"
   },
   {
-    "sobat_id": "320626050426",
+    "sobat_id": 320626050426,
     "nama": "RINA RAHMAWATI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4923,7 +4923,7 @@
     "photo_filename": "320626050426.png"
   },
   {
-    "sobat_id": "320622090040",
+    "sobat_id": 320622090040,
     "nama": "ARIF RUSMAN",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4932,7 +4932,7 @@
     "photo_filename": "320622090040.png"
   },
   {
-    "sobat_id": "320622091707",
+    "sobat_id": 320622091707,
     "nama": "MUHAMAD RIZKI ABDUL AZIZ",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4941,7 +4941,7 @@
     "photo_filename": "320622091707.png"
   },
   {
-    "sobat_id": "320623030200",
+    "sobat_id": 320623030200,
     "nama": "RIFAAH MUTMAINAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4950,7 +4950,7 @@
     "photo_filename": "320623030200.png"
   },
   {
-    "sobat_id": "320623110222",
+    "sobat_id": 320623110222,
     "nama": "FITRI YUDISTIRA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4959,7 +4959,7 @@
     "photo_filename": "320623110222.png"
   },
   {
-    "sobat_id": "320622090081",
+    "sobat_id": 320622090081,
     "nama": "AI SOLIHAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4968,7 +4968,7 @@
     "photo_filename": "320622090081.png"
   },
   {
-    "sobat_id": "320622090095",
+    "sobat_id": 320622090095,
     "nama": "YENI WAHYUNI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4977,7 +4977,7 @@
     "photo_filename": "320622090095.png"
   },
   {
-    "sobat_id": "320626050551",
+    "sobat_id": 320626050551,
     "nama": "RESA NURFARIDA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4986,7 +4986,7 @@
     "photo_filename": "320626050551.png"
   },
   {
-    "sobat_id": "320622090135",
+    "sobat_id": 320622090135,
     "nama": "YAYU FAUZIYAH",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -4995,7 +4995,7 @@
     "photo_filename": "320622090135.png"
   },
   {
-    "sobat_id": "320622100455",
+    "sobat_id": 320622100455,
     "nama": "NURSYAMSI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5004,7 +5004,7 @@
     "photo_filename": "320622100455.png"
   },
   {
-    "sobat_id": "320622090037",
+    "sobat_id": 320622090037,
     "nama": "IWAN SETIAWAN",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5013,7 +5013,7 @@
     "photo_filename": "320622090037.png"
   },
   {
-    "sobat_id": "320622091414",
+    "sobat_id": 320622091414,
     "nama": "RONI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5022,7 +5022,7 @@
     "photo_filename": "320622091414.png"
   },
   {
-    "sobat_id": "320626050352",
+    "sobat_id": 320626050352,
     "nama": "NOFI RAHMA ISMA YANTI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5031,7 +5031,7 @@
     "photo_filename": "320626050352.png"
   },
   {
-    "sobat_id": "320622090150",
+    "sobat_id": 320622090150,
     "nama": "MERI TRIANI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5040,7 +5040,7 @@
     "photo_filename": "320622090150.png"
   },
   {
-    "sobat_id": "320626050542",
+    "sobat_id": 320626050542,
     "nama": "CECEP SUBAGJA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5049,7 +5049,7 @@
     "photo_filename": "320626050542.png"
   },
   {
-    "sobat_id": "320626050908",
+    "sobat_id": 320626050908,
     "nama": "CECEP ABDUL LATIF",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5058,7 +5058,7 @@
     "photo_filename": "320626050908.png"
   },
   {
-    "sobat_id": "320626050369",
+    "sobat_id": 320626050369,
     "nama": "SHIFA KHOERUNNISA",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5067,7 +5067,7 @@
     "photo_filename": "320626050369.png"
   },
   {
-    "sobat_id": "320626050345",
+    "sobat_id": 320626050345,
     "nama": "DINI ANJARSARI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5076,7 +5076,7 @@
     "photo_filename": "320626050345.png"
   },
   {
-    "sobat_id": "320622090822",
+    "sobat_id": 320622090822,
     "nama": "ETI SUMIATI",
     "kecamatan": "(120) TANJUNGJAYA",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5085,7 +5085,16 @@
     "photo_filename": "320622090822.png"
   },
   {
-    "sobat_id": "320626050109",
+    "sobat_id": 320622100015,
+    "nama": "DIDIN KAMALUDIN",
+    "kecamatan": "(240) RAJAPOLAH",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "Hotel Amaris",
+    "kelas": "KELAS C",
+    "photo_filename": "320622100015.png"
+  },
+  {
+    "sobat_id": 320626050109,
     "nama": "AYU LESTARI PUTRI",
     "kecamatan": "(020) KARANGNUNGGAL",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
@@ -5094,7 +5103,7 @@
     "photo_filename": "320626050109.png"
   },
   {
-    "sobat_id": "320626051244",
+    "sobat_id": "320626051244 ",
     "nama": "RANI RISKA NABILA",
     "kecamatan": "(211) SARIWANGI",
     "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
