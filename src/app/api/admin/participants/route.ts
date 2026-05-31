@@ -4,6 +4,19 @@ import type { Participant } from "@/lib/storage";
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "eykman04";
 
+// Sanitize participant data: ensure all fields are strings
+function sanitize(p: any): Participant {
+  return {
+    sobat_id: String(p.sobat_id || ""),
+    nama: String(p.nama || ""),
+    kecamatan: String(p.kecamatan || ""),
+    gelombang: String(p.gelombang || ""),
+    tempat_pelatihan: String(p.tempat_pelatihan || ""),
+    kelas: String(p.kelas || ""),
+    photo_filename: String(p.photo_filename || ""),
+  };
+}
+
 function verifyPassword(request: NextRequest): boolean {
   return request.headers.get("x-admin-password") === ADMIN_PASSWORD;
 }
@@ -13,7 +26,8 @@ export async function GET(request: NextRequest) {
   if (!verifyPassword(request)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   try {
     await initializeStorageIfNeeded();
-    const participants = await getParticipants();
+    const rawParticipants = await getParticipants();
+    const participants = rawParticipants.map(sanitize);
     return NextResponse.json({ participants });
   } catch {
     return NextResponse.json({ error: "Gagal membaca data" }, { status: 500 });
@@ -30,7 +44,8 @@ export async function POST(request: NextRequest) {
 
     if (!participant?.sobat_id) return NextResponse.json({ error: "Data peserta tidak lengkap" }, { status: 400 });
 
-    const participants = await getParticipants();
+    const rawParticipants = await getParticipants();
+    const participants = rawParticipants.map(sanitize);
 
     if (action === "add") {
       if (participants.some((p) => p.sobat_id.toLowerCase() === participant.sobat_id.toLowerCase())) {
@@ -66,7 +81,8 @@ export async function DELETE(request: NextRequest) {
     const sobatId = searchParams.get("sobat_id");
     if (!sobatId) return NextResponse.json({ error: "Sobat ID diperlukan" }, { status: 400 });
 
-    let participants = await getParticipants();
+    let rawParticipants = await getParticipants();
+    let participants = rawParticipants.map(sanitize);
     const target = participants.find((p) => p.sobat_id.toLowerCase() === sobatId.toLowerCase());
     if (!target) return NextResponse.json({ error: `Peserta "${sobatId}" tidak ditemukan` }, { status: 404 });
 
