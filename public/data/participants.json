@@ -892,11 +892,11 @@
   },
   {
     "sobat_id": "320623110693",
-    "nama": "PENTI SUPENTI",
-    "kecamatan": "SE",
-    "gelombang": "(150) CINEAM",
-    "tempat_pelatihan": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "kelas": "Hotel Amaris",
+    "nama": "PENTI SUPENTI, SE",
+    "kecamatan": "(150) CINEAM",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "",
+    "kelas": "C",
     "photo_filename": "320623110693.png"
   },
   {
@@ -1874,10 +1874,10 @@
   {
     "sobat_id": "320626050170",
     "nama": "DISA FUADIYAH TSALITSAH",
-    "kecamatan": "S.PD",
-    "gelombang": "(210) LEUWISARI",
-    "tempat_pelatihan": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "kelas": "AlHambra Convention & Hotel",
+    "kecamatan": "(210) LEUWISARI",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "AlHambra Convention & Hotel",
+    "kelas": "G",
     "photo_filename": "320626050170.png"
   },
   {
@@ -2437,15 +2437,6 @@
     "tempat_pelatihan": "Hotel Amaris",
     "kelas": "A",
     "photo_filename": "320622090543.png"
-  },
-  {
-    "sobat_id": "320622100015",
-    "nama": "DIDIN KAMALUDIN",
-    "kecamatan": "(240) RAJAPOLAH",
-    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "tempat_pelatihan": "Hotel Amaris",
-    "kelas": "B",
-    "photo_filename": "320622100015.png"
   },
   {
     "sobat_id": "320622090524",
@@ -3718,11 +3709,11 @@
   },
   {
     "sobat_id": "320626050072",
-    "nama": "YAYAT HIDAYAT.",
-    "kecamatan": "SP",
-    "gelombang": "(020) KARANGNUNGGAL",
-    "tempat_pelatihan": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "kelas": "Hotel Horison",
+    "nama": "YAYAT HIDAYAT",
+    "kecamatan": "(020) KARANGNUNGGAL",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "Hotel Horison",
+    "kelas": "C",
     "photo_filename": "320626050072.png"
   },
   {
@@ -4150,11 +4141,11 @@
   },
   {
     "sobat_id": "320623030001",
-    "nama": "YOPANDA ADITYA PRADINA",
-    "kecamatan": "S.P",
-    "gelombang": "(020) KARANGNUNGGAL",
+    "nama": "YOPANDA ADITYA PRADINA S.P",
+    "kecamatan": "(020) KARANGNUNGGAL",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
     "tempat_pelatihan": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "kelas": "Hotel Horison",
+    "kelas": "B",
     "photo_filename": "320623030001.png"
   },
   {
@@ -5085,15 +5076,6 @@
     "photo_filename": "320622090822.png"
   },
   {
-    "sobat_id": "320622100015",
-    "nama": "DIDIN KAMALUDIN",
-    "kecamatan": "(240) RAJAPOLAH",
-    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "tempat_pelatihan": "Hotel Amaris",
-    "kelas": "KELAS C",
-    "photo_filename": "320622100015.png"
-  },
-  {
     "sobat_id": "320626050109",
     "nama": "AYU LESTARI PUTRI",
     "kecamatan": "(020) KARANGNUNGGAL",
@@ -5103,15 +5085,6 @@
     "photo_filename": "320626050109.png"
   },
   {
-    "sobat_id": "320626051244 ",
-    "nama": "RANI RISKA NABILA",
-    "kecamatan": "(211) SARIWANGI",
-    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
-    "tempat_pelatihan": "AlHambra Convention & Hotel",
-    "kelas": "KELAS F",
-    "photo_filename": "320626051244 .png"
-  },
-  {
     "sobat_id": "320626051244",
     "nama": "RANI RISKA NABILA",
     "kecamatan": "(211) SARIWANGI",
@@ -5119,5 +5092,23 @@
     "tempat_pelatihan": "AlHambra Convention & Hotel",
     "kelas": "F",
     "photo_filename": "320626051244.png"
+  },
+  {
+    "sobat_id": "320622100070",
+    "nama": "ARIP SAMSUDIN",
+    "kecamatan": "(240) RAJAPOLAH",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "Hotel Amaris",
+    "kelas": "B",
+    "photo_filename": "320622100070.png"
+  },
+  {
+    "sobat_id": "320622100015",
+    "nama": "DIDIN KAMALUDIN",
+    "kecamatan": "(240) RAJAPOLAH",
+    "gelombang": "Gelombang 1 - 02 Juni s/d 05 Juni 2026",
+    "tempat_pelatihan": "Hotel Amaris",
+    "kelas": "B",
+    "photo_filename": "320622100015.png"
   }
 ]
