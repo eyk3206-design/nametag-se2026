@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/dialog";
 import {
   Search, Loader2, Shield, Upload, Lock, X, CheckCircle,
-  AlertCircle, Pencil, Trash2, Plus, Cloud, Users, HardDrive, Minimize,
+  AlertCircle, Pencil, Trash2, Plus, Cloud, Users, HardDrive, Minimize, Filter,
 } from "lucide-react";
 
 interface Participant {
@@ -50,6 +50,9 @@ export default function Home() {
 
   // Manage state
   const [allParticipants, setAllParticipants] = useState<Participant[]>([]);
+  const [adminSearch, setAdminSearch] = useState("");
+  const [adminFilterKelas, setAdminFilterKelas] = useState("");
+  const [adminFilterGelombang, setAdminFilterGelombang] = useState("");
   const [loadingData, setLoadingData] = useState(false);
   const [editParticipant, setEditParticipant] = useState<Participant | null>(null);
   const [showForm, setShowForm] = useState(false);
@@ -274,6 +277,31 @@ export default function Home() {
     return `/api/photo?filename=${encodeURIComponent(filename)}&_t=${Date.now()}`;
   };
 
+  // Admin search & filter logic
+  const filteredParticipants = allParticipants.filter((p) => {
+    // Search filter (multi-column)
+    if (adminSearch.trim()) {
+      const q = adminSearch.toLowerCase().trim();
+      const match =
+        p.sobat_id.toLowerCase().includes(q) ||
+        p.nama.toLowerCase().includes(q) ||
+        p.kecamatan.toLowerCase().includes(q) ||
+        p.tempat_pelatihan.toLowerCase().includes(q) ||
+        p.kelas.toLowerCase().includes(q) ||
+        p.gelombang.toLowerCase().includes(q);
+      if (!match) return false;
+    }
+    // Kelas filter
+    if (adminFilterKelas && p.kelas !== adminFilterKelas) return false;
+    // Gelombang filter
+    if (adminFilterGelombang && p.gelombang.split(" - ")[0]?.trim() !== adminFilterGelombang) return false;
+    return true;
+  });
+
+  // Get unique Kelas and Gelombang for filter dropdowns
+  const uniqueKelas = [...new Set(allParticipants.map((p) => p.kelas))].sort();
+  const uniqueGelombang = [...new Set(allParticipants.map((p) => p.gelombang.split(" - ")[0]?.trim() || p.gelombang))].sort();
+
   // Photo URL for nametag display
   const [displayPhotoUrl, setDisplayPhotoUrl] = useState<string | null>(null);
 
@@ -312,6 +340,9 @@ export default function Home() {
                 setDeleteConfirm(null);
                 setFormPhotoFile(null);
                 setFormPhotoPreview(null);
+                setAdminSearch("");
+                setAdminFilterKelas("");
+                setAdminFilterGelombang("");
                 if (selectedParticipant && sobatId) handleSearch();
               }
             }}>
@@ -425,12 +456,62 @@ export default function Home() {
                     {/* Manage Tab */}
                     {adminTab === "manage" && (
                       <div className="space-y-4">
-                        <div className="flex items-center justify-between">
-                          <p className="text-sm text-gray-600">Total: <strong>{allParticipants.length}</strong> peserta</p>
-                          <Button onClick={() => { setFormMode("add"); setEditParticipant({ ...emptyParticipant }); setShowForm(true); setFormResult(null); setFormPhotoFile(null); setFormPhotoPreview(null); }}
-                            className="bg-orange-600 hover:bg-orange-700 text-white gap-1.5 text-sm h-8">
-                            <Plus className="h-4 w-4" />Tambah Peserta
-                          </Button>
+                        {/* Search & Filter Bar */}
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-2">
+                            <div className="relative flex-1">
+                              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-orange-400" />
+                              <Input
+                                placeholder="Cari Sobat ID, Nama, Kecamatan..."
+                                value={adminSearch}
+                                onChange={(e) => setAdminSearch(e.target.value)}
+                                className="pl-10 border-orange-200 focus:border-orange-500 h-9 text-sm"
+                              />
+                              {adminSearch && (
+                                <button onClick={() => setAdminSearch("")} className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-orange-100 rounded">
+                                  <X className="h-3.5 w-3.5 text-gray-400" />
+                                </button>
+                              )}
+                            </div>
+                            <Button onClick={() => { setFormMode("add"); setEditParticipant({ ...emptyParticipant }); setShowForm(true); setFormResult(null); setFormPhotoFile(null); setFormPhotoPreview(null); }}
+                              className="bg-orange-600 hover:bg-orange-700 text-white gap-1.5 text-sm h-9 shrink-0">
+                              <Plus className="h-4 w-4" />Tambah
+                            </Button>
+                          </div>
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <Filter className="h-4 w-4 text-orange-400 shrink-0" />
+                            <select
+                              value={adminFilterGelombang}
+                              onChange={(e) => setAdminFilterGelombang(e.target.value)}
+                              className="h-8 text-xs border border-orange-200 rounded-md px-2 bg-white focus:border-orange-500 focus:outline-none"
+                            >
+                              <option value="">Semua Gelombang</option>
+                              {uniqueGelombang.map((g) => (
+                                <option key={g} value={g}>{g}</option>
+                              ))}
+                            </select>
+                            <select
+                              value={adminFilterKelas}
+                              onChange={(e) => setAdminFilterKelas(e.target.value)}
+                              className="h-8 text-xs border border-orange-200 rounded-md px-2 bg-white focus:border-orange-500 focus:outline-none"
+                            >
+                              <option value="">Semua Kelas</option>
+                              {uniqueKelas.map((k) => (
+                                <option key={k} value={k}>{k}</option>
+                              ))}
+                            </select>
+                            {(adminSearch || adminFilterKelas || adminFilterGelombang) && (
+                              <button
+                                onClick={() => { setAdminSearch(""); setAdminFilterKelas(""); setAdminFilterGelombang(""); }}
+                                className="h-8 text-xs text-orange-600 hover:text-orange-800 hover:bg-orange-50 px-2 rounded-md transition-colors"
+                              >
+                                Reset Filter
+                              </button>
+                            )}
+                            <span className="text-xs text-gray-500 ml-auto">
+                              {filteredParticipants.length} dari {allParticipants.length} peserta
+                            </span>
+                          </div>
                         </div>
 
                         {showForm && editParticipant && (
@@ -503,7 +584,7 @@ export default function Home() {
                                   </tr>
                                 </thead>
                                 <tbody>
-                                  {allParticipants.map((p, idx) => (
+                                  {filteredParticipants.map((p, idx) => (
                                     <tr key={p.sobat_id} className={`border-t border-orange-100 ${idx % 2 === 0 ? "bg-white" : "bg-orange-50/30"}`}>
                                       <td className="px-3 py-2 font-mono text-xs font-semibold text-orange-700">{p.sobat_id}</td>
                                       <td className="px-3 py-2 text-gray-800 truncate max-w-[150px]">{p.nama}</td>
@@ -529,6 +610,9 @@ export default function Home() {
                                   ))}
                                   {allParticipants.length === 0 && (
                                     <tr><td colSpan={5} className="px-3 py-6 text-center text-gray-400">Belum ada data peserta</td></tr>
+                                  )}
+                                  {allParticipants.length > 0 && filteredParticipants.length === 0 && (
+                                    <tr><td colSpan={5} className="px-3 py-6 text-center text-gray-400">Tidak ada peserta yang cocok dengan pencarian</td></tr>
                                   )}
                                 </tbody>
                               </table>

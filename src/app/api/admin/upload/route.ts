@@ -6,7 +6,6 @@ import sharp from "sharp";
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "eykman04";
 
-// Sanitize participant data: ensure all fields are strings
 function sanitize(p: any): Participant {
   return {
     sobat_id: String(p.sobat_id || ""),
@@ -19,15 +18,12 @@ function sanitize(p: any): Participant {
   };
 }
 
-// Parse CSV text into Participant[]
 function parseCSV(csvText: string): Participant[] {
   const lines = csvText.trim().split(/\r?\n/);
   if (lines.length < 2) return [];
 
-  // Detect delimiter (comma or semicolon)
   const headerLine = lines[0];
   const delimiter = headerLine.includes(";") ? ";" : ",";
-
   const headers = headerLine.split(delimiter).map((h) => h.trim().toLowerCase().replace(/[^a-z0-9_]/g, "_"));
 
   const result: Participant[] = [];
@@ -40,7 +36,6 @@ function parseCSV(csvText: string): Participant[] {
       obj[header] = values[index] || "";
     });
 
-    // Try to map common column names
     const sobatId = obj.sobat_id || obj.sobatid || obj.id || obj.nik || "";
     const nama = obj.nama || obj.name || obj.nama_lengkap || "";
     const kecamatan = obj.kecamatan || obj.kec || "";
@@ -79,7 +74,6 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "File ZIP tidak ditemukan" }, { status: 400 });
     }
 
-    // Read ZIP file
     const arrayBuffer = await file.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
 
@@ -94,7 +88,7 @@ export async function POST(request: NextRequest) {
     const processedFiles: string[] = [];
     const errors: string[] = [];
 
-    // 1. Process CSV files first (to get participant data)
+    // 1. Process CSV files
     let newParticipants: Participant[] = [];
     const csvEntries = entries.filter(
       (e) => !e.isDirectory && (e.entryName.toLowerCase().endsWith(".csv") || e.entryName.toLowerCase().endsWith(".tsv"))
@@ -110,7 +104,7 @@ export async function POST(request: NextRequest) {
         } else {
           errors.push(`CSV ${csvEntry.entryName}: Tidak ada data valid ditemukan`);
         }
-      } catch (err) {
+      } catch {
         errors.push(`CSV ${csvEntry.entryName}: Gagal membaca file`);
       }
     }
@@ -128,7 +122,6 @@ export async function POST(request: NextRequest) {
         const fileName = imgEntry.entryName.split("/").pop() || imgEntry.entryName;
         const baseName = fileName.replace(/\.[^.]+$/, "");
 
-        // Convert to PNG and resize
         const imgBuffer = imgEntry.getData();
         const pngBuffer = await sharp(imgBuffer)
           .resize(600, 800, { fit: "inside", withoutEnlargement: true })
@@ -140,22 +133,21 @@ export async function POST(request: NextRequest) {
         photoCount++;
         processedFiles.push(`Foto: ${photoFilename}`);
 
-        // If this photo's sobat_id doesn't exist in newParticipants, check existing data
+        // Update existing participant's photo_filename if not in newParticipants
         const existingParticipants = await getParticipants();
         const existingIdx = existingParticipants.findIndex(
           (p) => p.sobat_id.toLowerCase() === baseName.toLowerCase()
         );
         if (existingIdx >= 0 && !newParticipants.some((p) => p.sobat_id.toLowerCase() === baseName.toLowerCase())) {
-          // Update photo_filename for existing participant
           existingParticipants[existingIdx].photo_filename = photoFilename;
           await saveParticipants(existingParticipants);
         }
-      } catch (err) {
+      } catch {
         errors.push(`Foto ${imgEntry.entryName}: Gagal memproses`);
       }
     }
 
-    // 3. If we have new participants from CSV, merge them
+    // 3. Merge new participants from CSV
     if (newParticipants.length > 0) {
       const existingParticipants = (await getParticipants()).map(sanitize);
 
@@ -164,7 +156,6 @@ export async function POST(request: NextRequest) {
           (p) => p.sobat_id.toLowerCase() === np.sobat_id.toLowerCase()
         );
         if (idx >= 0) {
-          // Update existing - keep photo_filename if already has photo in ZIP
           const photoInZip = imageEntries.some((e) => {
             const baseName = (e.entryName.split("/").pop() || "").replace(/\.[^.]+$/, "");
             return baseName.toLowerCase() === np.sobat_id.toLowerCase();
@@ -181,7 +172,6 @@ export async function POST(request: NextRequest) {
       await saveParticipants(existingParticipants);
     }
 
-    // 4. If no CSV but photos only, just upload photos
     if (newParticipants.length === 0 && photoCount === 0) {
       return NextResponse.json(
         { error: "Tidak ada file CSV atau foto yang valid ditemukan dalam ZIP" },
