@@ -11367,15 +11367,6 @@
     "photo_filename": "320622091536.png"
   },
   {
-    "sobat_id": "320622091441",
-    "nama": "ILA YULIA",
-    "kecamatan": "CISAYONG",
-    "gelombang": "Gelombang 3 - 08 Juni s/d 11 Juni 2026",
-    "tempat_pelatihan": "AlHambra Convention & Hotel",
-    "kelas": "A",
-    "photo_filename": "320622091441.png"
-  },
-  {
     "sobat_id": "320626050885",
     "nama": "ANDHITA MEGA ROSANTI",
     "kecamatan": "PUSPAHIANG",
@@ -12400,15 +12391,6 @@
     "tempat_pelatihan": "Grand Palma Hotel",
     "kelas": "A",
     "photo_filename": "320626050114.png"
-  },
-  {
-    "sobat_id": "320626050768",
-    "nama": "ANGGA MULYA LUGINA",
-    "kecamatan": "CISAYONG",
-    "gelombang": "Gelombang 3 - 08 Juni s/d 11 Juni 2026",
-    "tempat_pelatihan": "AlHambra Convention & Hotel",
-    "kelas": "F",
-    "photo_filename": "320626050768.png"
   },
   {
     "sobat_id": "320626050384",
@@ -14830,5 +14812,23 @@
     "tempat_pelatihan": "AlHambra Convention & Hotel",
     "kelas": "G",
     "photo_filename": "320626050250.png"
+  },
+  {
+    "sobat_id": "320623110710",
+    "nama": "Titi Sari Widayanti",
+    "kecamatan": "CISAYONG",
+    "gelombang": "Gelombang 3 - 08 Juni s/d 11 Juni 2026",
+    "tempat_pelatihan": "AlHambra Convention & Hotel",
+    "kelas": "A",
+    "photo_filename": "320623110710.png"
+  },
+  {
+    "sobat_id": "320621100107",
+    "nama": "Budiman Andriadi",
+    "kecamatan": "CISAYONG",
+    "gelombang": "Gelombang 3 - 08 Juni s/d 11 Juni 2026",
+    "tempat_pelatihan": "AlHambra Convention & Hotel",
+    "kelas": "F",
+    "photo_filename": "320621100107.png"
   }
 ]
